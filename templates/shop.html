@@ -1,0 +1,101 @@
+{% extends 'base.html' %}
+{% block title %}Cửa Hàng Son Môi | Lipstick Luxe{% endblock %}
+{% block content %}
+
+    <div class="control-grid" style="grid-template-columns: 1fr; margin-bottom: 25px;">
+        <div class="glass-panel" style="padding: 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px; margin-bottom: 0;">
+            <h1 style="font-family: 'Playfair Display', serif; font-size: 28px; color: #fff; margin: 0;">Bộ Sưu Tập Cửa Hàng</h1>
+            
+            <div style="display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+                <!-- Sort dropdown -->
+                <div class="input-group" style="flex-direction: row; align-items: center; gap: 10px;">
+                    <label for="shop-sort" style="white-space: nowrap; margin-bottom: 0;">Sắp xếp theo:</label>
+                    <div class="select-wrapper" style="width: 180px;">
+                        <select id="shop-sort">
+                            <option value="">Mặc định (ID)</option>
+                            <option value="asc">Giá: Thấp đến Cao</option>
+                            <option value="desc">Giá: Cao đến Thấp</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="shop-layout-grid">
+        
+        <!-- SIDEBAR FILTERS -->
+        <aside class="glass-panel" style="padding: 24px; position: sticky; top: 20px;">
+            <h3 style="font-size: 16px; color: var(--accent-gold); margin-bottom: 20px; letter-spacing: 1px; text-transform: uppercase; border-bottom: 1px solid rgba(255,255,255,0.06); padding-bottom: 10px;">Bộ Lọc Tìm Kiếm</h3>
+            
+            <!-- Text Search -->
+            <div class="input-group" style="margin-bottom: 20px;">
+                <label for="search-input">Tìm kiếm từ khóa</label>
+                <div class="search-input-wrapper">
+                    <span class="search-icon">&#128269;</span>
+                    <input type="text" id="search-input" placeholder="Tên son, hãng, mã...">
+                </div>
+            </div>
+
+            <!-- Brand Filter -->
+            <div class="input-group" style="margin-bottom: 20px;">
+                <label for="brand-filter">Thương Hiệu</label>
+                <div class="select-wrapper">
+                    <select id="brand-filter">
+                        <option value="">Tất cả thương hiệu</option>
+                        <option value="Dior">Dior</option>
+                        <option value="YSL">YSL</option>
+                        <option value="Tom Ford">Tom Ford</option>
+                        <option value="Gucci">Gucci</option>
+                        <option value="MAC">MAC</option>
+                        <option value="Hermes">Hermes</option>
+                        <option value="Black Rouge">Black Rouge</option>
+                        <option value="Romand">Romand</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Color Family Filter -->
+            <div class="input-group" style="margin-bottom: 20px;">
+                <label for="color-filter">Nhóm Màu Sắc</label>
+                <div class="select-wrapper">
+                    <select id="color-filter">
+                        <option value="">Tất cả nhóm màu</option>
+                        <option value="Đỏ">Đỏ (Red)</option>
+                        <option value="Hồng">Hồng (Pink)</option>
+                        <option value="Cam">Cam (Orange)</option>
+                        <option value="San Hô">San Hô (Coral)</option>
+                        <option value="Nude">Nude</option>
+                        <option value="Đỏ Đất / Gạch">Đỏ Đất / Gạch</option>
+                        <option value="Mận / Berry">Mận / Berry</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Price Tier Filter -->
+            <div class="input-group" style="margin-bottom: 20px;">
+                <label for="price-filter">Phân Khúc Giá</label>
+                <div class="select-wrapper">
+                    <select id="price-filter">
+                        <option value="">Tất cả mức giá</option>
+                        <option value="Affordable">Bình dân (Romand...)</option>
+                        <option value="Premium">Trung cấp (MAC...)</option>
+                        <option value="Luxury">Cao cấp (Dior, YSL...)</option>
+                        <option value="Ultra-Luxury">Siêu cao cấp (Hermes...)</option>
+                    </select>
+                </div>
+            </div>
+            
+            <button class="btn-export" id="btn-reset-filters" style="width: 100%; justify-content: center; margin-top: 10px;">Xóa Tất Cả Bộ Lọc</button>
+        </aside>
+
+        <!-- PRODUCT GRID -->
+        <section class="glass-panel" style="padding: 24px; min-height: 500px;">
+            <div class="product-grid" id="shop-product-grid">
+                <!-- Loaded dynamically by JS -->
+            </div>
+        </section>
+        
+    </div>
+
+{% endblock %}

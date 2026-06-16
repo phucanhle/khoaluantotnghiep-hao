@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Lipstick Luxe - E-commerce AR & AI{% endblock %}</title>
+    <meta name="description" content="Trang web bán son môi cao cấp tích hợp công nghệ thử son ảo AR và hệ thống gợi ý màu son thông minh AI.">
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <!-- MediaPipe APIs for AR Face Mesh -->
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/face_mesh.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+        <!-- HEADER & NAVIGATION -->
+        <nav class="glass-panel navbar">
+            <div class="logo">
+                <a href="/" style="text-decoration: none; display: flex; align-items: center; gap: 8px;">
+                    <span style="font-family: 'Playfair Display', serif; font-size: 26px; font-weight: 700; color: var(--text-primary); letter-spacing: 1px;">LIPSTICK<span style="color: var(--accent-pink); font-style: italic; font-weight: 400;">Luxe</span></span>
+                </a>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="/" class="nav-link">Trang Chủ</a></li>
+                <li><a href="/shop" class="nav-link">Cửa Hàng</a></li>
+                <li><a href="/profile" class="nav-link">Skin Test & Đăng Nhập</a></li>
+                <li id="admin-nav-item" style="display: none;"><a href="/admin" class="nav-link" style="color: var(--accent-pink); font-weight: 600;">Quản Trị Admin</a></li>
+            </ul>
+            
+            <div class="nav-actions">
+                <!-- User session status -->
+                <div style="font-size: 13px; color: var(--text-muted); display: flex; align-items: center; gap: 8px;">
+                    <span id="user-status-dot" style="width: 8px; height: 8px; border-radius: 50%; background-color: #ff9800; display: inline-block;"></span>
+                    <span id="navbar-username" style="color: var(--text-primary); font-weight: 500;">GUEST</span>
+                </div>
+                
+                <!-- Shopping Cart Icon Badge -->
+                <a href="/cart" class="btn-export" style="padding: 8px 16px; margin: 0; position: relative; border-color: var(--accent-blue); background: rgba(144,202,249,0.05); text-decoration: none;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 6px;"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+                    Giỏ hàng (<span id="cart-count" style="color: var(--accent-pink); font-weight: 700;">0</span>)
+                </a>
+            </div>
+        </nav>
+
+        <main style="margin-top: 30px;">
+            {% block content %}{% endblock %}
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="glass-panel">
+            <div class="footer-row">
+                <div style="text-align: left; font-size: 13px; color: var(--text-muted);">
+                    <strong>LIPSTICK Luxe</strong> - Dự án e-commerce mỹ phẩm tích hợp WebRTC AR Try-On & AI recommender.<br>
+                    Đề tài khóa luận tốt nghiệp ngành Hệ thống Thông tin &copy; 2026
+                </div>
+                <div class="thesis-credits" style="text-align: right;">
+                    Sinh viên thực hiện: <span>Phùng Tô Hào</span> (MSSV: 22166023)<br>
+                    Trường Đại học Nông Lâm TP.HCM
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Link JS -->
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,1894 @@
+[
+    {
+        "id": 1,
+        "brand": "Dior",
+        "product_name": "Rouge Dior Lipstick",
+        "shade_name": "999 Velvet",
+        "hex_code": "#D21F3C",
+        "rgb": {
+            "r": 210,
+            "g": 31,
+            "b": 60
+        },
+        "hsl": {
+            "h": 350,
+            "s": 74,
+            "l": 47
+        },
+        "lab": {
+            "l": 45.64,
+            "a": 66.52,
+            "b": 31.46
+        },
+        "color_family": "Đỏ",
+        "price_tier": "Luxury",
+        "image_path": "data/images/dior_999_velvet.svg",
+        "original_image_url": "https://www.dior.com/dw/image/v2/BBDV_PRD/on/demandware.static/-/Sites-master_deparment_store/default/dw83ab35d9/assets/Y0996452/Y0996452_C099600999_E01.jpg?sw=800&sh=800&sm=fit",
+        "dupes": [
+            {
+                "id": 42,
+                "brand": "Black Rouge",
+                "product_name": "Air Fit Velvet Tint",
+                "shade_name": "A15 Sunny Rose",
+                "hex_code": "#CE2847",
+                "similarity": 74.8,
+                "delta_e": 7.21,
+                "image_path": "data/images/blackrouge_a15_sunny_rose.svg"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "brand": "Dior",
+        "product_name": "Rouge Dior Lipstick",
+        "shade_name": "720 Icone Velvet",
+        "hex_code": "#A84A59",
+        "rgb": {
+            "r": 168,
+            "g": 74,
+            "b": 89
+        },
+        "hsl": {
+            "h": 350,
+            "s": 39,
+            "l": 47
+        },
+        "lab": {
+            "l": 44.15,
+            "a": 40.09,
+            "b": 10.37
+        },
+        "color_family": "Đỏ",
+        "price_tier": "Luxury",
+        "image_path": "data/images/dior_720_icone_velvet.svg",
+        "original_image_url": "https://www.dior.com/dw/image/v2/BBDV_PRD/on/demandware.static/-/Sites-master_deparment_store/default/dw543b5936/assets/Y0996452/Y0996452_C099600720_E01.jpg?sw=800&sh=800&sm=fit",
+        "dupes": [
+            {
+                "id": 40,
+                "brand": "Black Rouge",
+                "product_name": "Air Fit Velvet Tint",
+                "shade_name": "A31 Dry Rose",
+                "hex_code": "#A9484C",
+                "similarity": 74.4,
+                "delta_e": 7.31,
+                "image_path": "data/images/blackrouge_a31_dry_rose.svg"
+            },
+            {
+                "id": 46,
+                "brand": "Romand",
+                "product_name": "Juicy Lasting Tint",
+                "shade_name": "07 Jujube",
+                "hex_code": "#B55D61",
+                "similarity": 71.3,
+                "delta_e": 8.19,
+                "image_path": "data/images/romand_07_jujube.svg"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "brand": "Dior",
+        "product_name": "Rouge Dior Lipstick",
+        "shade_name": "100 Nude Look Matte",
+        "hex_code": "#C98E8F",
+        "rgb": {
+            "r": 201,
+            "g": 142,
+            "b": 143
+        },
+        "hsl": {
+            "h": 359,
+            "s": 35,
+            "l": 67
+        },
+        "lab": {
+            "l": 64.76,
+            "a": 22.54,
+            "b": 8.44
+        },
+        "color_family": "Hồng",
+        "price_tier": "Luxury",
+        "image_path": "data/images/dior_100_nude_look_matte.svg",
+        "original_image_url": "https://www.dior.com/dw/image/v2/BBDV_PRD/on/demandware.static/-/Sites-master_deparment_store/default/dwe310a0fe/assets/Y0996452/Y0996452_C099600100_E01.jpg?sw=800&sh=800&sm=fit",
+        "dupes": [
+            {
+                "id": 48,
+                "brand": "Romand",
+                "product_name": "Juicy Lasting Tint",
+                "shade_name": "25 Bare Grape",
+                "hex_code": "#BD8D97",
+                "similarity": 74.4,
+                "delta_e": 7.3,
+                "image_path": "data/images/romand_25_bare_grape.svg"
+            },
+            {
+                "id": 49,
+                "brand": "Romand",
+                "product_name": "Juicy Lasting Tint",
+                "shade_name": "18 Mulled Peach",
+                "hex_code": "#D78B88",
+                "similarity": 71.9,
+                "delta_e": 8.04,
+                "image_path": "data/images/romand_18_mulled_peach.svg"
+            },
+            {
+                "id": 52,
+                "brand": "Romand",
+                "product_name": "Juicy Lasting Tint",
+                "shade_name": "23 Nucadamia",
+                "hex_code": "#B37D73",
+                "similarity": 66.9,
+                "delta_e": 9.47,
+                "image_path": "data/images/romand_23_nucadamia.svg"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "brand": "Dior",
+        "product_name": "Dior Addict Lip Glow",
+        "shade_name": "001 Pink",
+        "hex_code": "#FFD1DC",
+        "rgb": {
+            "r": 255,
+            "g": 209,
+            "b": 220
+        },
+        "hsl": {
+            "h": 346,
+            "s": 100,
+            "l": 91
+        },
+        "lab": {
+            "l": 87.98,
+            "a": 17.83,
+            "b": 0.67
+        },
+        "color_family": "Hồng",
+        "price_tier": "Luxury",
+        "image_path": "data/images/dior_001_pink.svg",
+        "original_image_url": "https://www.dior.com/dw/image/v2/BBDV_PRD/on/demandware.static/-/Sites-master_deparment_store/default/dw7694901f/assets/Y0996214/Y0996214_C099600001_E01.jpg?sw=800&sh=800&sm=fit",
+        "dupes": []
+    },
+    {
+        "id": 5,
+        "brand": "Dior",
+        "product_name": "Dior Addict Lip Glow",
+        "shade_name": "004 Coral",
+        "hex_code": "#FFA07A",
+        "rgb": {
+            "r": 255,
+            "g": 160,
+            "b": 122
+        },
+        "hsl": {
+            "h": 17,
+            "s": 100,
+            "l": 74
+        },
+        "lab": {
+            "l": 74.7,
+            "a": 31.48,
+            "b": 34.54
+        },
+        "color_family": "San Hô",
+        "price_tier": "Luxury",
+        "image_path": "data/images/dior_004_coral.svg",
+        "original_image_url": "https://www.dior.com/dw/image/v2/BBDV_PRD/on/demandware.static/-/Sites-master_deparment_store/default/dw11fb4d57/assets/Y0996214/Y0996214_C099600004_E01.jpg?sw=800&sh=800&sm=fit",
+        "dupes": []
+    },
+    {
+        "id": 6,
+        "brand": "Dior",
+        "product_name": "Rouge Dior Lipstick",
+        "shade_name": "888 Strong Matte",
+        "hex_code": "#E03C31",
+        "rgb": {
+            "r": 224,
+            "g": 60,
+            "b": 49
+        },
+        "hsl": {
+            "h": 4,
+            "s": 74,
+            "l": 54
+        },
+        "lab": {
+            "l": 51.04,
+            "a": 62.15,
+            "b": 44.46
+        },
+        "color_family": "Đỏ",
+        "price_tier": "Luxury",
+        "image_path": "data/images/dior_888_strong_matte.svg",
+        "original_image_url": "https://www.dior.com/dw/image/v2/BBDV_PRD/on/demandware.static/-/Sites-master_deparment_store/default/dw8374d89e/assets/Y0996452/Y0996452_C099600888_E01.jpg?sw=800&sh=800&sm=fit",
+        "dupes": [
+            {
+                "id": 41,
+                "brand": "Black Rouge",
+                "product_name": "Air Fit Velvet Tint",
+                "shade_name": "A03 Soft Red",
+                "hex_code": "#D82B27",
+                "similarity": 84.4,
+                "delta_e": 4.45,
+                "image_path": "data/images/blackrouge_a03_soft_red.svg"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "brand": "YSL",
+        "product_name": "The Slim Velvet Radical",
+        "shade_name": "1966 Rouge Libre",
+        "hex_code": "#B22222",
+        "rgb": {
+            "r": 178,
+            "g": 34,
+            "b": 34
+        },
+        "hsl": {
+            "h": 0,
+            "s": 68,
+            "l": 42
+        },
+        "lab": {
+            "l": 39.11,
+            "a": 55.93,
+            "b": 37.65
+        },
+        "color_family": "Đỏ Đất / Gạch",
+        "price_tier": "Luxury",
+        "image_path": "data/images/ysl_1966_rouge_libre.svg",
+        "original_image_url": "https://www.yslbeautyus.com/dw/image/v2/AABF_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw20739c3e/makeup/lips/lipstick/rouge-pur-couture-the-slim-velvet-radical/3614273449312_rougepurcouturetheslimvelvetradical_1966.jpg?sw=800&sh=800&sm=fit",
+        "dupes": [
+            {
+                "id": 44,
+                "brand": "Black Rouge",
+                "product_name": "Air Fit Velvet Tint",
+                "shade_name": "A21 Prickly Rose",
+                "hex_code": "#B1262B",
+                "similarity": 82.3,
+                "delta_e": 5.06,
+                "image_path": "data/images/blackrouge_a21_prickly_rose.svg"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "brand": "YSL",
+        "product_name": "The Slim Velvet Radical",
+        "shade_name": "21 Rouge Paradoxe",
+        "hex_code": "#A6001E",
+        "rgb": {
+            "r": 166,
+            "g": 0,
+            "b": 30
+        },
+        "hsl": {
+            "h": 349,
+            "s": 100,
+            "l": 33
+        },
+        "lab": {
+            "l": 34.4,
+            "a": 58.62,
+            "b": 34.39
+        },
+        "color_family": "Đỏ Đất / Gạch",
+        "price_tier": "Luxury",
+        "image_path": "data/images/ysl_21_rouge_paradoxe.svg",
+        "original_image_url": "https://www.yslbeautyus.com/dw/image/v2/AABF_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dwfa63914a/makeup/lips/lipstick/rouge-pur-couture-the-slim-velvet-radical/3614273449336_rougepurcouturetheslimvelvetradical_21.jpg?sw=800&sh=800&sm=fit",
+        "dupes": [
+            {
+                "id": 44,
+                "brand": "Black Rouge",
+                "product_name": "Air Fit Velvet Tint",
+                "shade_name": "A21 Prickly Rose",
+                "hex_code": "#B1262B",
+                "similarity": 77.1,
+                "delta_e": 6.53,
+                "image_path": "data/images/blackrouge_a21_prickly_rose.svg"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "brand": "YSL",
+        "product_name": "Rouge Pur Couture Satin",
+        "shade_name": "01 Le Rouge",
+        "hex_code": "#DE1738",
+        "rgb": {
+            "r": 222,
+            "g": 23,
+            "b": 56
+        },
+        "hsl": {
+            "h": 350,
+            "s": 81,
+            "l": 48
+        },
+        "lab": {
+            "l": 47.53,
+            "a": 70.87,
+            "b": 36.65
+        },
+        "color_family": "Đỏ",
+        "price_tier": "Luxury",
+        "image_path": "data/images/ysl_01_le_rouge.svg",
+        "original_image_url": "https://www.yslbeautyus.com/dw/image/v2/AABF_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dwc62b489a/makeup/lips/lipstick/rouge-pur-couture/3614273902343_rouge_pur_couture_01_le_rouge.jpg?sw=800&sh=800&sm=fit",
+        "dupes": [
+            {
+                "id": 41,
+                "brand": "Black Rouge",
+                "product_name": "Air Fit Velvet Tint",
+                "shade_name": "A03 Soft Red",
+                "hex_code": "#D82B27",
+                "similarity": 61.3,
+                "delta_e": 11.07,
+                "image_path": "data/images/blackrouge_a03_soft_red.svg"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "brand": "YSL",
+        "product_name": "Rouge Pur Couture Satin",
+        "shade_name": "13 Le Orange",
+        "hex_code": "#FF4500",
+        "rgb": {
+            "r": 255,
+            "g": 69,
+            "b": 0
+        },
+        "hsl": {
+            "h": 16,
+            "s": 100,
+            "l": 50
+        },
+        "lab": {
+            "l": 57.57,
+            "a": 67.8,
+            "b": 68.97
+        },
+        "color_family": "Cam",
+        "price_tier": "Luxury",
+        "image_path": "data/images/ysl_13_le_orange.svg",
+        "original_image_url": "https://www.yslbeautyus.com/dw/image/v2/AABF_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw9a7a6b8f/makeup/lips/lipstick/rouge-pur-couture/3614273902428_rouge_pur_couture_13_le_orange.jpg?sw=800&sh=800&sm=fit",
+        "dupes": []
+    },
+    {
+        "id": 11,
+        "brand": "YSL",
+        "product_name": "The Slim Velvet Radical",
+        "shade_name": "11 Ambiguous Beige",
+        "hex_code": "#D2B48C",
+        "rgb": {
+            "r": 210,
+            "g": 180,
+            "b": 140
+        },
+        "hsl": {
+            "h": 34,
+            "s": 44,
+            "l": 69
+        },
+        "lab": {
+            "l": 74.97,
+            "a": 5.02,
+            "b": 24.42
+        },
+        "color_family": "San Hô",
+        "price_tier": "Luxury",
+        "image_path": "data/images/ysl_11_ambiguous_beige.svg",
+        "original_image_url": "https://www.yslbeautyus.com/dw/image/v2/AABF_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw4a613f1c/makeup/lips/lipstick/rouge-pur-couture-the-slim-velvet-radical/3614273449299_rougepurcouturetheslimvelvetradical_11.jpg?sw=800&sh=800&sm=fit",
+        "dupes": []
+    },
+    {
+        "id": 12,
+        "brand": "YSL",
+        "product_name": "Candy Glaze Lip Gloss Stick",
+        "shade_name": "02 Sweet Pink",
+        "hex_code": "#FFB6C1",
+        "rgb": {
+            "r": 255,
+            "g": 182,
+            "b": 193
+        },
+        "hsl": {
+            "h": 351,
+            "s": 100,
+            "l": 86
+        },
+        "lab": {
+            "l": 81.05,
+            "a": 27.97,
+            "b": 5.03
+        },
+        "color_family": "Hồng",
+        "price_tier": "Luxury",
+        "image_path": "data/images/ysl_02_sweet_pink.svg",
+        "original_image_url": "https://www.yslbeautyus.com/dw/image/v2/AABF_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw36be8e4e/makeup/lips/lipstick/candy-glaze-lip-gloss-stick/3614273583320_candyglazelipglossstick_02.jpg?sw=800&sh=800&sm=fit",
+        "dupes": []
+    },
+    {
+        "id": 13,
+        "brand": "Tom Ford",
+        "product_name": "Lip Color Matte",
+        "shade_name": "16 Scarlet Rouge",
+        "hex_code": "#C41E3A",
+        "rgb": {
+            "r": 196,
+            "g": 30,
+            "b": 58
+        },
+        "hsl": {
+            "h": 350,
+            "s": 73,
+            "l": 44
+        },
+        "lab": {
+            "l": 42.72,
+            "a": 62.9,
+            "b": 28.48
+        },
+        "color_family": "Đỏ Đất / Gạch",
+        "price_tier": "Luxury",
+        "image_path": "data/images/tomford_16_scarlet_rouge.svg",
+        "original_image_url": "https://www.tomford.com/dw/image/v2/BDTJ_PRD/on/demandware.static/-/Sites-tomford-master-catalog/default/dw9e4a5d89/images/T0T1-16-0001_A.jpg?sw=800&sh=800&sm=fit",
+        "dupes": [
+            {
+                "id": 42,
+                "brand": "Black Rouge",
+                "product_name": "Air Fit Velvet Tint",
+                "shade_name": "A15 Sunny Rose",
+                "hex_code": "#CE2847",
+                "similarity": 82.8,
+                "delta_e": 4.91,
+                "image_path": "data/images/blackrouge_a15_sunny_rose.svg"
+            },
+            {
+                "id": 44,
+                "brand": "Black Rouge",
+                "product_name": "Air Fit Velvet Tint",
+                "shade_name": "A21 Prickly Rose",
+                "hex_code": "#B1262B",
+                "similarity": 65.9,
+                "delta_e": 9.74,
+                "image_path": "data/images/blackrouge_a21_prickly_rose.svg"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "brand": "Tom Ford",
+        "product_name": "Lip Color Matte",
+        "shade_name": "07 Ruby Rush",
+        "hex_code": "#BE002F",
+        "rgb": {
+            "r": 190,
+            "g": 0,
+            "b": 47
+        },
+        "hsl": {
+            "h": 345,
+            "s": 100,
+            "l": 37
+        },
+        "lab": {
+            "l": 39.84,
+            "a": 65.15,
+            "b": 31.51
+        },
+        "color_family": "Đỏ Đất / Gạch",
+        "price_tier": "Luxury",
+        "image_path": "data/images/tomford_07_ruby_rush.svg",
+        "original_image_url": "https://www.tomford.com/dw/image/v2/BDTJ_PRD/on/demandware.static/-/Sites-tomford-master-catalog/default/dw3d8a5c9a/images/T0T1-07-0001_A.jpg?sw=800&sh=800&sm=fit",
+        "dupes": [
+            {
+                "id": 42,
+                "brand": "Black Rouge",
+                "product_name": "Air Fit Velvet Tint",
+                "shade_name": "A15 Sunny Rose",
+                "hex_code": "#CE2847",
+                "similarity": 68.2,
+                "delta_e": 9.08,
+                "image_path": "data/images/blackrouge_a15_sunny_rose.svg"
+            },
+            {
+                "id": 44,
+                "brand": "Black Rouge",
+                "product_name": "Air Fit Velvet Tint",
+                "shade_name": "A21 Prickly Rose",
+                "hex_code": "#B1262B",
+                "similarity": 63.4,
+                "delta_e": 10.45,
+                "image_path": "data/images/blackrouge_a21_prickly_rose.svg"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "brand": "Tom Ford",
+        "product_name": "Lip Color Matte",
+        "shade_name": "100 Equus",
+        "hex_code": "#A0522D",
+        "rgb": {
+            "r": 160,
+            "g": 82,
+            "b": 45
+        },
+        "hsl": {
+            "h": 19,
+            "s": 56,
+            "l": 40
+        },
+        "lab": {
+            "l": 43.8,
+            "a": 29.33,
+            "b": 35.64
+        },
+        "color_family": "Đỏ Đất / Gạch",
+        "price_tier": "Luxury",
+        "image_path": "data/images/tomford_100_equus.svg",
+        "original_image_url": "https://www.tomford.com/dw/image/v2/BDTJ_PRD/on/demandware.static/-/Sites-tomford-master-catalog/default/dw1b6a7d23/images/T0T1-100-0001_A.jpg?sw=800&sh=800&sm=fit",
+        "dupes": [
+            {
+                "id": 47,
+                "brand": "Romand",
+                "product_name": "Juicy Lasting Tint",
+                "shade_name": "13 Eat Dotori",
+                "hex_code": "#B04D38",
+                "similarity": 63.6,
+                "delta_e": 10.41,
+                "image_path": "data/images/romand_13_eat_dotori.svg"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "brand": "Tom Ford",
+        "product_name": "Lip Color Matte",
+        "shade_name": "09 True Coral",
+        "hex_code": "#FF6F61",
+        "rgb": {
+            "r": 255,
+            "g": 111,
+            "b": 97
+        },
+        "hsl": {
+            "h": 5,
+            "s": 100,
+            "l": 69
+        },
+        "lab": {
+            "l": 64.56,
+            "a": 53.91,
+            "b": 35.17
+        },
+        "color_family": "Hồng",
+        "price_tier": "Luxury",
+        "image_path": "data/images/tomford_09_true_coral.svg",
+        "original_image_url": "https://www.tomford.com/dw/image/v2/BDTJ_PRD/on/demandware.static/-/Sites-tomford-master-catalog/default/dw9f7a4e5f/images/T0T1-09-0001_A.jpg?sw=800&sh=800&sm=fit",
+        "dupes": []
+    },
+    {
+        "id": 17,
+        "brand": "Tom Ford",
+        "product_name": "Lip Color Satin",
+        "shade_name": "03 Casablanca",
+        "hex_code": "#8A3324",
+        "rgb": {
+            "r": 138,
+            "g": 51,
+            "b": 36
+        },
+        "hsl": {
+            "h": 9,
+            "s": 59,
+            "l": 34
+        },
+        "lab": {
+            "l": 33.77,
+            "a": 36.19,
+            "b": 28.5
+        },
+        "color_family": "Đỏ Đất / Gạch",
+        "price_tier": "Luxury",
+        "image_path": "data/images/tomford_03_casablanca.svg",
+        "original_image_url": "https://www.tomford.com/dw/image/v2/BDTJ_PRD/on/demandware.static/-/Sites-tomford-master-catalog/default/dwa39b1a2c/images/T0T0-03-0001_A.jpg?sw=800&sh=800&sm=fit",
+        "dupes": [
+            {
+                "id": 53,
+                "brand": "Romand",
+                "product_name": "Zero Velvet Tint",
+                "shade_name": "06 Deepsoul",
+                "hex_code": "#8A2A22",
+                "similarity": 84.7,
+                "delta_e": 4.38,
+                "image_path": "data/images/romand_06_deepsoul.svg"
+            },
+            {
+                "id": 37,
+                "brand": "Black Rouge",
+                "product_name": "Air Fit Velvet Tint",
+                "shade_name": "A12 Dashed Brown",
+                "hex_code": "#802319",
+                "similarity": 80.1,
+                "delta_e": 5.68,
+                "image_path": "data/images/blackrouge_a12_dashed_brown.svg"
+            },
+            {
+                "id": 54,
+                "brand": "Romand",
+                "product_name": "Glasting Water Tint",
+                "shade_name": "04 Vintage Ocean",
+                "hex_code": "#9B372F",
+                "similarity": 77.3,
+                "delta_e": 6.48,
+                "image_path": "data/images/romand_04_vintage_ocean.svg"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "brand": "Tom Ford",
+        "product_name": "Lip Color Satin",
+        "shade_name": "15 Wild Ginger",
+        "hex_code": "#E2583E",
+        "rgb": {
+            "r": 226,
+            "g": 88,
+            "b": 62
+        },
+        "hsl": {
+            "h": 10,
+            "s": 74,
+            "l": 56
+        },
+        "lab": {
+            "l": 55.58,
+            "a": 52.3,
+            "b": 42.5
+        },
+        "color_family": "Đỏ",
+        "price_tier": "Luxury",
+        "image_path": "data/images/tomford_15_wild_ginger.svg",
+        "original_image_url": "https://www.tomford.com/dw/image/v2/BDTJ_PRD/on/demandware.static/-/Sites-tomford-master-catalog/default/dw6c7b9a5e/images/T0T0-15-0001_A.jpg?sw=800&sh=800&sm=fit",
+        "dupes": []
+    },
+    {
+        "id": 19,
+        "brand": "Gucci",
+        "product_name": "Rouge à Lèvres Mat",
+        "shade_name": "25 Goldie Red",
+        "hex_code": "#D91A3C",
+        "rgb": {
+            "r": 217,
+            "g": 26,
+            "b": 60
+        },
+        "hsl": {
+            "h": 349,
+            "s": 79,
+            "l": 48
+        },
+        "lab": {
+            "l": 46.73,
+            "a": 69.27,
+            "b": 33.09
+        },
+        "color_family": "Đỏ",
+        "price_tier": "Luxury",
+        "image_path": "data/images/gucci_25_goldie_red.svg",
+        "original_image_url": "https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1569429906/591427_PV200_9025_001_100_0000_Light-Rouge-Lvres-Mat-Lipstick-25-Goldie-Red.jpg",
+        "dupes": [
+            {
+                "id": 42,
+                "brand": "Black Rouge",
+                "product_name": "Air Fit Velvet Tint",
+                "shade_name": "A15 Sunny Rose",
+                "hex_code": "#CE2847",
+                "similarity": 65.1,
+                "delta_e": 9.98,
+                "image_path": "data/images/blackrouge_a15_sunny_rose.svg"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "brand": "Gucci",
+        "product_name": "Rouge à Lèvres Mat",
+        "shade_name": "505 Janet Rust",
+        "hex_code": "#9E2A2B",
+        "rgb": {
+            "r": 158,
+            "g": 42,
+            "b": 43
+        },
+        "hsl": {
+            "h": 359,
+            "s": 58,
+            "l": 39
+        },
+        "lab": {
+            "l": 36.18,
+            "a": 47.48,
+            "b": 28.03
+        },
+        "color_family": "Đỏ Đất / Gạch",
+        "price_tier": "Luxury",
+        "image_path": "data/images/gucci_505_janet_rust.svg",
+        "original_image_url": "https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1569429910/591427_PV200_9505_001_100_0000_Light-Rouge-Lvres-Mat-Lipstick-505-Janet-Rust.jpg",
+        "dupes": [
+            {
+                "id": 54,
+                "brand": "Romand",
+                "product_name": "Glasting Water Tint",
+                "shade_name": "04 Vintage Ocean",
+                "hex_code": "#9B372F",
+                "similarity": 77.3,
+                "delta_e": 6.49,
+                "image_path": "data/images/romand_04_vintage_ocean.svg"
+            },
+            {
+                "id": 51,
+                "brand": "Romand",
+                "product_name": "Zero Velvet Tint",
+                "shade_name": "05 Witty",
+                "hex_code": "#A53F33",
+                "similarity": 72.7,
+                "delta_e": 7.8,
+                "image_path": "data/images/romand_05_witty.svg"
+            },
+            {
+                "id": 38,
+                "brand": "Black Rouge",
+                "product_name": "Air Fit Velvet Tint",
+                "shade_name": "A06 Sweet Chili",
+                "hex_code": "#A83F31",
+                "similarity": 72.4,
+                "delta_e": 7.88,
+                "image_path": "data/images/blackrouge_a06_sweet_chili.svg"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "brand": "Gucci",
+        "product_name": "Rouge à Lèvres Mat",
+        "shade_name": "208 They Met in Argentina",
+        "hex_code": "#D98880",
+        "rgb": {
+            "r": 217,
+            "g": 136,
+            "b": 128
+        },
+        "hsl": {
+            "h": 5,
+            "s": 54,
+            "l": 68
+        },
+        "lab": {
+            "l": 64.9,
+            "a": 30.06,
+            "b": 17.35
+        },
+        "color_family": "Hồng",
+        "price_tier": "Luxury",
+        "image_path": "data/images/gucci_208_they_met_in_argentina.svg",
+        "original_image_url": "https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1569429903/591427_PV200_9208_001_100_0000_Light-Rouge-Lvres-Mat-Lipstick-208-They-Met-in-Argentina.jpg",
+        "dupes": [
+            {
+                "id": 49,
+                "brand": "Romand",
+                "product_name": "Juicy Lasting Tint",
+                "shade_name": "18 Mulled Peach",
+                "hex_code": "#D78B88",
+                "similarity": 86.0,
+                "delta_e": 4.01,
+                "image_path": "data/images/romand_18_mulled_peach.svg"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "brand": "Gucci",
+        "product_name": "Rouge à Lèvres Mat",
+        "shade_name": "509 Janie Scarlet",
+        "hex_code": "#800020",
+        "rgb": {
+            "r": 128,
+            "g": 0,
+            "b": 32
+        },
+        "hsl": {
+            "h": 345,
+            "s": 100,
+            "l": 25
+        },
+        "lab": {
+            "l": 25.84,
+            "a": 48.9,
+            "b": 21.29
+        },
+        "color_family": "Đỏ Đất / Gạch",
+        "price_tier": "Luxury",
+        "image_path": "data/images/gucci_509_janie_scarlet.svg",
+        "original_image_url": "https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1569429912/591427_PV200_9509_001_100_0000_Light-Rouge-Lvres-Mat-Lipstick-509-Janie-Scarlet.jpg",
+        "dupes": [
+            {
+                "id": 43,
+                "brand": "Black Rouge",
+                "product_name": "Air Fit Velvet Tint",
+                "shade_name": "A32 Black Rose",
+                "hex_code": "#7A1B29",
+                "similarity": 67.6,
+                "delta_e": 9.24,
+                "image_path": "data/images/blackrouge_a32_black_rose.svg"
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "brand": "Gucci",
+        "product_name": "Rouge à Lèvres Satin",
+        "shade_name": "500 Odalie Red",
+        "hex_code": "#FF3F3F",
+        "rgb": {
+            "r": 255,
+            "g": 63,
+            "b": 63
+        },
+        "hsl": {
+            "h": 0,
+            "s": 100,
+            "l": 62
+        },
+        "lab": {
+            "l": 57.24,
+            "a": 70.83,
+            "b": 45.23
+        },
+        "color_family": "Đỏ",
+        "price_tier": "Luxury",
+        "image_path": "data/images/gucci_500_odalie_red.svg",
+        "original_image_url": "https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1559132104/563820_PV200_9500_001_100_0000_Light-Rouge-Lvres-Satin-Lipstick-500-Odalie-Red.jpg",
+        "dupes": []
+    },
+    {
+        "id": 24,
+        "brand": "Gucci",
+        "product_name": "Rouge à Lèvres Voile",
+        "shade_name": "203 Mildred Rosewood",
+        "hex_code": "#B57170",
+        "rgb": {
+            "r": 181,
+            "g": 113,
+            "b": 112
+        },
+        "hsl": {
+            "h": 1,
+            "s": 32,
+            "l": 57
+        },
+        "lab": {
+            "l": 54.87,
+            "a": 26.77,
+            "b": 11.9
+        },
+        "color_family": "Đỏ",
+        "price_tier": "Luxury",
+        "image_path": "data/images/gucci_203_mildred_rosewood.svg",
+        "original_image_url": "https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1559132101/563823_PV200_9203_001_100_0000_Light-Rouge-Lvres-Voile-Lipstick-203-Mildred-Rosewood.jpg",
+        "dupes": [
+            {
+                "id": 52,
+                "brand": "Romand",
+                "product_name": "Juicy Lasting Tint",
+                "shade_name": "23 Nucadamia",
+                "hex_code": "#B37D73",
+                "similarity": 72.5,
+                "delta_e": 7.85,
+                "image_path": "data/images/romand_23_nucadamia.svg"
+            },
+            {
+                "id": 45,
+                "brand": "Romand",
+                "product_name": "Juicy Lasting Tint",
+                "shade_name": "06 Figfig",
+                "hex_code": "#A76571",
+                "similarity": 69.7,
+                "delta_e": 8.65,
+                "image_path": "data/images/romand_06_figfig.svg"
+            },
+            {
+                "id": 46,
+                "brand": "Romand",
+                "product_name": "Juicy Lasting Tint",
+                "shade_name": "07 Jujube",
+                "hex_code": "#B55D61",
+                "similarity": 63.1,
+                "delta_e": 10.55,
+                "image_path": "data/images/romand_07_jujube.svg"
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "brand": "MAC",
+        "product_name": "Retro Matte Lipstick",
+        "shade_name": "Ruby Woo",
+        "hex_code": "#C30B2E",
+        "rgb": {
+            "r": 195,
+            "g": 11,
+            "b": 46
+        },
+        "hsl": {
+            "h": 349,
+            "s": 89,
+            "l": 40
+        },
+        "lab": {
+            "l": 41.28,
+            "a": 65.23,
+            "b": 34.03
+        },
+        "color_family": "Đỏ Đất / Gạch",
+        "price_tier": "Premium",
+        "image_path": "data/images/mac_ruby_woo.svg",
+        "original_image_url": "https://www.maccosmetics.com/media/export/html/products/800x800/m_mac_M30005_800x800_0.jpg",
+        "dupes": [
+            {
+                "id": 42,
+                "brand": "Black Rouge",
+                "product_name": "Air Fit Velvet Tint",
+                "shade_name": "A15 Sunny Rose",
+                "hex_code": "#CE2847",
+                "similarity": 63.6,
+                "delta_e": 10.39,
+                "image_path": "data/images/blackrouge_a15_sunny_rose.svg"
+            },
+            {
+                "id": 44,
+                "brand": "Black Rouge",
+                "product_name": "Air Fit Velvet Tint",
+                "shade_name": "A21 Prickly Rose",
+                "hex_code": "#B1262B",
+                "similarity": 62.6,
+                "delta_e": 10.69,
+                "image_path": "data/images/blackrouge_a21_prickly_rose.svg"
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "brand": "MAC",
+        "product_name": "Retro Matte Lipstick",
+        "shade_name": "Russian Red",
+        "hex_code": "#B20D30",
+        "rgb": {
+            "r": 178,
+            "g": 13,
+            "b": 48
+        },
+        "hsl": {
+            "h": 347,
+            "s": 86,
+            "l": 37
+        },
+        "lab": {
+            "l": 37.78,
+            "a": 60.73,
+            "b": 27.85
+        },
+        "color_family": "Đỏ Đất / Gạch",
+        "price_tier": "Premium",
+        "image_path": "data/images/mac_russian_red.svg",
+        "original_image_url": "https://www.maccosmetics.com/media/export/html/products/800x800/m_mac_M30006_800x800_0.jpg",
+        "dupes": [
+            {
+                "id": 44,
+                "brand": "Black Rouge",
+                "product_name": "Air Fit Velvet Tint",
+                "shade_name": "A21 Prickly Rose",
+                "hex_code": "#B1262B",
+                "similarity": 72.5,
+                "delta_e": 7.87,
+                "image_path": "data/images/blackrouge_a21_prickly_rose.svg"
+            },
+            {
+                "id": 42,
+                "brand": "Black Rouge",
+                "product_name": "Air Fit Velvet Tint",
+                "shade_name": "A15 Sunny Rose",
+                "hex_code": "#CE2847",
+                "similarity": 68.1,
+                "delta_e": 9.12,
+                "image_path": "data/images/blackrouge_a15_sunny_rose.svg"
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "brand": "MAC",
+        "product_name": "Powder Kiss Lipstick",
+        "shade_name": "Devoted to Chili",
+        "hex_code": "#B83E3E",
+        "rgb": {
+            "r": 184,
+            "g": 62,
+            "b": 62
+        },
+        "hsl": {
+            "h": 0,
+            "s": 50,
+            "l": 48
+        },
+        "lab": {
+            "l": 44.21,
+            "a": 49.14,
+            "b": 27.37
+        },
+        "color_family": "Đỏ",
+        "price_tier": "Premium",
+        "image_path": "data/images/mac_devoted_to_chili.svg",
+        "original_image_url": "https://www.maccosmetics.com/media/export/html/products/800x800/m_mac_MT1Y16_800x800_0.jpg",
+        "dupes": [
+            {
+                "id": 50,
+                "brand": "Romand",
+                "product_name": "Zero Velvet Tint",
+                "shade_name": "02 Joyful",
+                "hex_code": "#C54E4B",
+                "similarity": 80.9,
+                "delta_e": 5.45,
+                "image_path": "data/images/romand_02_joyful.svg"
+            },
+            {
+                "id": 39,
+                "brand": "Black Rouge",
+                "product_name": "Air Fit Velvet Tint",
+                "shade_name": "A26 Winter Peach",
+                "hex_code": "#B84A39",
+                "similarity": 72.0,
+                "delta_e": 7.99,
+                "image_path": "data/images/blackrouge_a26_winter_peach.svg"
+            },
+            {
+                "id": 38,
+                "brand": "Black Rouge",
+                "product_name": "Air Fit Velvet Tint",
+                "shade_name": "A06 Sweet Chili",
+                "hex_code": "#A83F31",
+                "similarity": 71.3,
+                "delta_e": 8.2,
+                "image_path": "data/images/blackrouge_a06_sweet_chili.svg"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "brand": "MAC",
+        "product_name": "Powder Kiss Lipstick",
+        "shade_name": "Mull It Over",
+        "hex_code": "#D29683",
+        "rgb": {
+            "r": 210,
+            "g": 150,
+            "b": 131
+        },
+        "hsl": {
+            "h": 14,
+            "s": 47,
+            "l": 67
+        },
+        "lab": {
+            "l": 67.39,
+            "a": 20.12,
+            "b": 18.98
+        },
+        "color_family": "Hồng",
+        "price_tier": "Premium",
+        "image_path": "data/images/mac_mull_it_over.svg",
+        "original_image_url": "https://www.maccosmetics.com/media/export/html/products/800x800/m_mac_MT1Y09_800x800_0.jpg",
+        "dupes": [
+            {
+                "id": 49,
+                "brand": "Romand",
+                "product_name": "Juicy Lasting Tint",
+                "shade_name": "18 Mulled Peach",
+                "hex_code": "#D78B88",
+                "similarity": 64.3,
+                "delta_e": 10.19,
+                "image_path": "data/images/romand_18_mulled_peach.svg"
+            },
+            {
+                "id": 52,
+                "brand": "Romand",
+                "product_name": "Juicy Lasting Tint",
+                "shade_name": "23 Nucadamia",
+                "hex_code": "#B37D73",
+                "similarity": 61.1,
+                "delta_e": 11.1,
+                "image_path": "data/images/romand_23_nucadamia.svg"
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "brand": "MAC",
+        "product_name": "Retro Matte Lipstick",
+        "shade_name": "All Fired Up",
+        "hex_code": "#D52662",
+        "rgb": {
+            "r": 213,
+            "g": 38,
+            "b": 98
+        },
+        "hsl": {
+            "h": 339,
+            "s": 70,
+            "l": 49
+        },
+        "lab": {
+            "l": 47.51,
+            "a": 67.94,
+            "b": 10.71
+        },
+        "color_family": "Hồng",
+        "price_tier": "Premium",
+        "image_path": "data/images/mac_all_fired_up.svg",
+        "original_image_url": "https://www.maccosmetics.com/media/export/html/products/800x800/m_mac_M30007_800x800_0.jpg",
+        "dupes": []
+    },
+    {
+        "id": 30,
+        "brand": "MAC",
+        "product_name": "Lustreglass Lipstick",
+        "shade_name": "See Sheer",
+        "hex_code": "#E07A5F",
+        "rgb": {
+            "r": 224,
+            "g": 122,
+            "b": 95
+        },
+        "hsl": {
+            "h": 13,
+            "s": 68,
+            "l": 63
+        },
+        "lab": {
+            "l": 62.16,
+            "a": 37.05,
+            "b": 32.31
+        },
+        "color_family": "Đỏ",
+        "price_tier": "Premium",
+        "image_path": "data/images/mac_see_sheer.svg",
+        "original_image_url": "https://www.maccosmetics.com/media/export/html/products/800x800/m_mac_MT6T08_800x800_0.jpg",
+        "dupes": []
+    },
+    {
+        "id": 31,
+        "brand": "Hermes",
+        "product_name": "Rouge Hermes Matte",
+        "shade_name": "64 Rouge Casaque",
+        "hex_code": "#E60026",
+        "rgb": {
+            "r": 230,
+            "g": 0,
+            "b": 38
+        },
+        "hsl": {
+            "h": 350,
+            "s": 100,
+            "l": 45
+        },
+        "lab": {
+            "l": 48.21,
+            "a": 74.58,
+            "b": 47.92
+        },
+        "color_family": "Đỏ",
+        "price_tier": "Ultra-Luxury",
+        "image_path": "data/images/hermes_64_rouge_casaque.svg",
+        "original_image_url": "https://assets.hermes.com/image/upload/T_products_item_800/v1580922332/rouge-hermes-matte-lipstick-64-rouge-casaque.jpg",
+        "dupes": [
+            {
+                "id": 41,
+                "brand": "Black Rouge",
+                "product_name": "Air Fit Velvet Tint",
+                "shade_name": "A03 Soft Red",
+                "hex_code": "#D82B27",
+                "similarity": 64.3,
+                "delta_e": 10.19,
+                "image_path": "data/images/blackrouge_a03_soft_red.svg"
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "brand": "Hermes",
+        "product_name": "Rouge Hermes Matte",
+        "shade_name": "85 Rouge H",
+        "hex_code": "#58111A",
+        "rgb": {
+            "r": 88,
+            "g": 17,
+            "b": 26
+        },
+        "hsl": {
+            "h": 352,
+            "s": 68,
+            "l": 21
+        },
+        "lab": {
+            "l": 18.14,
+            "a": 32.51,
+            "b": 13.91
+        },
+        "color_family": "Đỏ Đất / Gạch",
+        "price_tier": "Ultra-Luxury",
+        "image_path": "data/images/hermes_85_rouge_h.svg",
+        "original_image_url": "https://assets.hermes.com/image/upload/T_products_item_800/v1580922335/rouge-hermes-matte-lipstick-85-rouge-h.jpg",
+        "dupes": []
+    },
+    {
+        "id": 33,
+        "brand": "Hermes",
+        "product_name": "Rouge Hermes Satin",
+        "shade_name": "48 Rose Boise",
+        "hex_code": "#AF6E78",
+        "rgb": {
+            "r": 175,
+            "g": 110,
+            "b": 120
+        },
+        "hsl": {
+            "h": 351,
+            "s": 29,
+            "l": 56
+        },
+        "lab": {
+            "l": 53.62,
+            "a": 27.14,
+            "b": 5.34
+        },
+        "color_family": "Đỏ",
+        "price_tier": "Ultra-Luxury",
+        "image_path": "data/images/hermes_48_rose_boise.svg",
+        "original_image_url": "https://assets.hermes.com/image/upload/T_products_item_800/v1580922329/rouge-hermes-satin-lipstick-48-rose-boise.jpg",
+        "dupes": [
+            {
+                "id": 45,
+                "brand": "Romand",
+                "product_name": "Juicy Lasting Tint",
+                "shade_name": "06 Figfig",
+                "hex_code": "#A76571",
+                "similarity": 87.8,
+                "delta_e": 3.49,
+                "image_path": "data/images/romand_06_figfig.svg"
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "brand": "Hermes",
+        "product_name": "Rouge Hermes Satin",
+        "shade_name": "33 Orange Boite",
+        "hex_code": "#FF5F00",
+        "rgb": {
+            "r": 255,
+            "g": 95,
+            "b": 0
+        },
+        "hsl": {
+            "h": 22,
+            "s": 100,
+            "l": 50
+        },
+        "lab": {
+            "l": 61.17,
+            "a": 58.02,
+            "b": 70.74
+        },
+        "color_family": "Cam",
+        "price_tier": "Ultra-Luxury",
+        "image_path": "data/images/hermes_33_orange_boite.svg",
+        "original_image_url": "https://assets.hermes.com/image/upload/T_products_item_800/v1580922325/rouge-hermes-satin-lipstick-33-orange-boite.jpg",
+        "dupes": []
+    },
+    {
+        "id": 35,
+        "brand": "Hermes",
+        "product_name": "Rouge Hermes Satin",
+        "shade_name": "21 Rose Epice",
+        "hex_code": "#C88E7D",
+        "rgb": {
+            "r": 200,
+            "g": 142,
+            "b": 125
+        },
+        "hsl": {
+            "h": 14,
+            "s": 41,
+            "l": 64
+        },
+        "lab": {
+            "l": 64.25,
+            "a": 19.83,
+            "b": 17.83
+        },
+        "color_family": "Đỏ",
+        "price_tier": "Ultra-Luxury",
+        "image_path": "data/images/hermes_21_rose_epice.svg",
+        "original_image_url": "https://assets.hermes.com/image/upload/T_products_item_800/v1580922321/rouge-hermes-satin-lipstick-21-rose-epice.jpg",
+        "dupes": [
+            {
+                "id": 52,
+                "brand": "Romand",
+                "product_name": "Juicy Lasting Tint",
+                "shade_name": "23 Nucadamia",
+                "hex_code": "#B37D73",
+                "similarity": 72.7,
+                "delta_e": 7.79,
+                "image_path": "data/images/romand_23_nucadamia.svg"
+            },
+            {
+                "id": 49,
+                "brand": "Romand",
+                "product_name": "Juicy Lasting Tint",
+                "shade_name": "18 Mulled Peach",
+                "hex_code": "#D78B88",
+                "similarity": 65.7,
+                "delta_e": 9.8,
+                "image_path": "data/images/romand_18_mulled_peach.svg"
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "brand": "Hermes",
+        "product_name": "Rouge Hermes Satin",
+        "shade_name": "75 Rouge Amazone",
+        "hex_code": "#E03C31",
+        "rgb": {
+            "r": 224,
+            "g": 60,
+            "b": 49
+        },
+        "hsl": {
+            "h": 4,
+            "s": 74,
+            "l": 54
+        },
+        "lab": {
+            "l": 51.04,
+            "a": 62.15,
+            "b": 44.46
+        },
+        "color_family": "Đỏ",
+        "price_tier": "Ultra-Luxury",
+        "image_path": "data/images/hermes_75_rouge_amazone.svg",
+        "original_image_url": "https://assets.hermes.com/image/upload/T_products_item_800/v1580922339/rouge-hermes-satin-lipstick-75-rouge-amazone.jpg",
+        "dupes": [
+            {
+                "id": 41,
+                "brand": "Black Rouge",
+                "product_name": "Air Fit Velvet Tint",
+                "shade_name": "A03 Soft Red",
+                "hex_code": "#D82B27",
+                "similarity": 84.4,
+                "delta_e": 4.45,
+                "image_path": "data/images/blackrouge_a03_soft_red.svg"
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "brand": "Black Rouge",
+        "product_name": "Air Fit Velvet Tint",
+        "shade_name": "A12 Dashed Brown",
+        "hex_code": "#802319",
+        "rgb": {
+            "r": 128,
+            "g": 35,
+            "b": 25
+        },
+        "hsl": {
+            "h": 6,
+            "s": 67,
+            "l": 30
+        },
+        "lab": {
+            "l": 29.06,
+            "a": 39.26,
+            "b": 29.31
+        },
+        "color_family": "Đỏ Đất / Gạch",
+        "price_tier": "Affordable",
+        "image_path": "data/images/blackrouge_a12_dashed_brown.svg",
+        "original_image_url": "https://blackrouge.vn/cdn/shop/products/a12_dashed_brown.jpg",
+        "dupes": []
+    },
+    {
+        "id": 38,
+        "brand": "Black Rouge",
+        "product_name": "Air Fit Velvet Tint",
+        "shade_name": "A06 Sweet Chili",
+        "hex_code": "#A83F31",
+        "rgb": {
+            "r": 168,
+            "g": 63,
+            "b": 49
+        },
+        "hsl": {
+            "h": 7,
+            "s": 55,
+            "l": 43
+        },
+        "lab": {
+            "l": 41.38,
+            "a": 42.35,
+            "b": 30.99
+        },
+        "color_family": "Đỏ Đất / Gạch",
+        "price_tier": "Affordable",
+        "image_path": "data/images/blackrouge_a06_sweet_chili.svg",
+        "original_image_url": "https://blackrouge.vn/cdn/shop/products/a06_sweet_chili.jpg",
+        "dupes": []
+    },
+    {
+        "id": 39,
+        "brand": "Black Rouge",
+        "product_name": "Air Fit Velvet Tint",
+        "shade_name": "A26 Winter Peach",
+        "hex_code": "#B84A39",
+        "rgb": {
+            "r": 184,
+            "g": 74,
+            "b": 57
+        },
+        "hsl": {
+            "h": 8,
+            "s": 53,
+            "l": 47
+        },
+        "lab": {
+            "l": 46.15,
+            "a": 43.46,
+            "b": 32.65
+        },
+        "color_family": "Đỏ",
+        "price_tier": "Affordable",
+        "image_path": "data/images/blackrouge_a26_winter_peach.svg",
+        "original_image_url": "https://blackrouge.vn/cdn/shop/products/a26_winter_peach.jpg",
+        "dupes": []
+    },
+    {
+        "id": 40,
+        "brand": "Black Rouge",
+        "product_name": "Air Fit Velvet Tint",
+        "shade_name": "A31 Dry Rose",
+        "hex_code": "#A9484C",
+        "rgb": {
+            "r": 169,
+            "g": 72,
+            "b": 76
+        },
+        "hsl": {
+            "h": 358,
+            "s": 40,
+            "l": 47
+        },
+        "lab": {
+            "l": 43.64,
+            "a": 40.24,
+            "b": 17.66
+        },
+        "color_family": "Đỏ",
+        "price_tier": "Affordable",
+        "image_path": "data/images/blackrouge_a31_dry_rose.svg",
+        "original_image_url": "https://blackrouge.vn/cdn/shop/products/a31_dry_rose.jpg",
+        "dupes": []
+    },
+    {
+        "id": 41,
+        "brand": "Black Rouge",
+        "product_name": "Air Fit Velvet Tint",
+        "shade_name": "A03 Soft Red",
+        "hex_code": "#D82B27",
+        "rgb": {
+            "r": 216,
+            "g": 43,
+            "b": 39
+        },
+        "hsl": {
+            "h": 1,
+            "s": 69,
+            "l": 50
+        },
+        "lab": {
+            "l": 47.59,
+            "a": 64.63,
+            "b": 45.79
+        },
+        "color_family": "Đỏ",
+        "price_tier": "Affordable",
+        "image_path": "data/images/blackrouge_a03_soft_red.svg",
+        "original_image_url": "https://blackrouge.vn/cdn/shop/products/a03_soft_red.jpg",
+        "dupes": []
+    },
+    {
+        "id": 42,
+        "brand": "Black Rouge",
+        "product_name": "Air Fit Velvet Tint",
+        "shade_name": "A15 Sunny Rose",
+        "hex_code": "#CE2847",
+        "rgb": {
+            "r": 206,
+            "g": 40,
+            "b": 71
+        },
+        "hsl": {
+            "h": 349,
+            "s": 67,
+            "l": 48
+        },
+        "lab": {
+            "l": 45.76,
+            "a": 63.88,
+            "b": 24.75
+        },
+        "color_family": "Đỏ",
+        "price_tier": "Affordable",
+        "image_path": "data/images/blackrouge_a15_sunny_rose.svg",
+        "original_image_url": "https://blackrouge.vn/cdn/shop/products/a15_sunny_rose.jpg",
+        "dupes": []
+    },
+    {
+        "id": 43,
+        "brand": "Black Rouge",
+        "product_name": "Air Fit Velvet Tint",
+        "shade_name": "A32 Black Rose",
+        "hex_code": "#7A1B29",
+        "rgb": {
+            "r": 122,
+            "g": 27,
+            "b": 41
+        },
+        "hsl": {
+            "h": 351,
+            "s": 64,
+            "l": 29
+        },
+        "lab": {
+            "l": 26.97,
+            "a": 41.15,
+            "b": 16.38
+        },
+        "color_family": "Đỏ Đất / Gạch",
+        "price_tier": "Affordable",
+        "image_path": "data/images/blackrouge_a32_black_rose.svg",
+        "original_image_url": "https://blackrouge.vn/cdn/shop/products/a32_black_rose.jpg",
+        "dupes": []
+    },
+    {
+        "id": 44,
+        "brand": "Black Rouge",
+        "product_name": "Air Fit Velvet Tint",
+        "shade_name": "A21 Prickly Rose",
+        "hex_code": "#B1262B",
+        "rgb": {
+            "r": 177,
+            "g": 38,
+            "b": 43
+        },
+        "hsl": {
+            "h": 358,
+            "s": 65,
+            "l": 42
+        },
+        "lab": {
+            "l": 39.42,
+            "a": 54.78,
+            "b": 32.73
+        },
+        "color_family": "Đỏ Đất / Gạch",
+        "price_tier": "Affordable",
+        "image_path": "data/images/blackrouge_a21_prickly_rose.svg",
+        "original_image_url": "https://blackrouge.vn/cdn/shop/products/a21_prickly_rose.jpg",
+        "dupes": []
+    },
+    {
+        "id": 45,
+        "brand": "Romand",
+        "product_name": "Juicy Lasting Tint",
+        "shade_name": "06 Figfig",
+        "hex_code": "#A76571",
+        "rgb": {
+            "r": 167,
+            "g": 101,
+            "b": 113
+        },
+        "hsl": {
+            "h": 349,
+            "s": 27,
+            "l": 53
+        },
+        "lab": {
+            "l": 50.35,
+            "a": 28.13,
+            "b": 4.65
+        },
+        "color_family": "Đỏ",
+        "price_tier": "Affordable",
+        "image_path": "data/images/romand_06_figfig.svg",
+        "original_image_url": "https://romand.vn/cdn/shop/products/06_figfig.jpg",
+        "dupes": []
+    },
+    {
+        "id": 46,
+        "brand": "Romand",
+        "product_name": "Juicy Lasting Tint",
+        "shade_name": "07 Jujube",
+        "hex_code": "#B55D61",
+        "rgb": {
+            "r": 181,
+            "g": 93,
+            "b": 97
+        },
+        "hsl": {
+            "h": 357,
+            "s": 37,
+            "l": 54
+        },
+        "lab": {
+            "l": 50.12,
+            "a": 35.92,
+            "b": 14.12
+        },
+        "color_family": "Đỏ",
+        "price_tier": "Affordable",
+        "image_path": "data/images/romand_07_jujube.svg",
+        "original_image_url": "https://romand.vn/cdn/shop/products/07_jujube.jpg",
+        "dupes": []
+    },
+    {
+        "id": 47,
+        "brand": "Romand",
+        "product_name": "Juicy Lasting Tint",
+        "shade_name": "13 Eat Dotori",
+        "hex_code": "#B04D38",
+        "rgb": {
+            "r": 176,
+            "g": 77,
+            "b": 56
+        },
+        "hsl": {
+            "h": 10,
+            "s": 52,
+            "l": 45
+        },
+        "lab": {
+            "l": 45.39,
+            "a": 38.95,
+            "b": 32.0
+        },
+        "color_family": "Đỏ",
+        "price_tier": "Affordable",
+        "image_path": "data/images/romand_13_eat_dotori.svg",
+        "original_image_url": "https://romand.vn/cdn/shop/products/13_eat_dotori.jpg",
+        "dupes": []
+    },
+    {
+        "id": 48,
+        "brand": "Romand",
+        "product_name": "Juicy Lasting Tint",
+        "shade_name": "25 Bare Grape",
+        "hex_code": "#BD8D97",
+        "rgb": {
+            "r": 189,
+            "g": 141,
+            "b": 151
+        },
+        "hsl": {
+            "h": 348,
+            "s": 27,
+            "l": 65
+        },
+        "lab": {
+            "l": 63.43,
+            "a": 19.73,
+            "b": 1.83
+        },
+        "color_family": "Đỏ",
+        "price_tier": "Affordable",
+        "image_path": "data/images/romand_25_bare_grape.svg",
+        "original_image_url": "https://romand.vn/cdn/shop/products/25_bare_grape.jpg",
+        "dupes": []
+    },
+    {
+        "id": 49,
+        "brand": "Romand",
+        "product_name": "Juicy Lasting Tint",
+        "shade_name": "18 Mulled Peach",
+        "hex_code": "#D78B88",
+        "rgb": {
+            "r": 215,
+            "g": 139,
+            "b": 136
+        },
+        "hsl": {
+            "h": 2,
+            "s": 50,
+            "l": 69
+        },
+        "lab": {
+            "l": 65.51,
+            "a": 28.61,
+            "b": 13.66
+        },
+        "color_family": "Hồng",
+        "price_tier": "Affordable",
+        "image_path": "data/images/romand_18_mulled_peach.svg",
+        "original_image_url": "https://romand.vn/cdn/shop/products/18_mulled_peach.jpg",
+        "dupes": []
+    },
+    {
+        "id": 50,
+        "brand": "Romand",
+        "product_name": "Zero Velvet Tint",
+        "shade_name": "02 Joyful",
+        "hex_code": "#C54E4B",
+        "rgb": {
+            "r": 197,
+            "g": 78,
+            "b": 75
+        },
+        "hsl": {
+            "h": 1,
+            "s": 51,
+            "l": 53
+        },
+        "lab": {
+            "l": 49.29,
+            "a": 47.36,
+            "b": 26.51
+        },
+        "color_family": "Đỏ",
+        "price_tier": "Affordable",
+        "image_path": "data/images/romand_02_joyful.svg",
+        "original_image_url": "https://romand.vn/cdn/shop/products/02_joyful.jpg",
+        "dupes": []
+    },
+    {
+        "id": 51,
+        "brand": "Romand",
+        "product_name": "Zero Velvet Tint",
+        "shade_name": "05 Witty",
+        "hex_code": "#A53F33",
+        "rgb": {
+            "r": 165,
+            "g": 63,
+            "b": 51
+        },
+        "hsl": {
+            "h": 6,
+            "s": 53,
+            "l": 42
+        },
+        "lab": {
+            "l": 40.89,
+            "a": 41.36,
+            "b": 29.11
+        },
+        "color_family": "Đỏ Đất / Gạch",
+        "price_tier": "Affordable",
+        "image_path": "data/images/romand_05_witty.svg",
+        "original_image_url": "https://romand.vn/cdn/shop/products/05_witty.jpg",
+        "dupes": []
+    },
+    {
+        "id": 52,
+        "brand": "Romand",
+        "product_name": "Juicy Lasting Tint",
+        "shade_name": "23 Nucadamia",
+        "hex_code": "#B37D73",
+        "rgb": {
+            "r": 179,
+            "g": 125,
+            "b": 115
+        },
+        "hsl": {
+            "h": 9,
+            "s": 30,
+            "l": 58
+        },
+        "lab": {
+            "l": 57.55,
+            "a": 19.66,
+            "b": 13.86
+        },
+        "color_family": "Đỏ",
+        "price_tier": "Affordable",
+        "image_path": "data/images/romand_23_nucadamia.svg",
+        "original_image_url": "https://romand.vn/cdn/shop/products/23_nucadamia.jpg",
+        "dupes": []
+    },
+    {
+        "id": 53,
+        "brand": "Romand",
+        "product_name": "Zero Velvet Tint",
+        "shade_name": "06 Deepsoul",
+        "hex_code": "#8A2A22",
+        "rgb": {
+            "r": 138,
+            "g": 42,
+            "b": 34
+        },
+        "hsl": {
+            "h": 5,
+            "s": 60,
+            "l": 34
+        },
+        "lab": {
+            "l": 32.2,
+            "a": 40.24,
+            "b": 27.92
+        },
+        "color_family": "Đỏ Đất / Gạch",
+        "price_tier": "Affordable",
+        "image_path": "data/images/romand_06_deepsoul.svg",
+        "original_image_url": "https://romand.vn/cdn/shop/products/06_deepsoul.jpg",
+        "dupes": []
+    },
+    {
+        "id": 54,
+        "brand": "Romand",
+        "product_name": "Glasting Water Tint",
+        "shade_name": "04 Vintage Ocean",
+        "hex_code": "#9B372F",
+        "rgb": {
+            "r": 155,
+            "g": 55,
+            "b": 47
+        },
+        "hsl": {
+            "h": 4,
+            "s": 53,
+            "l": 40
+        },
+        "lab": {
+            "l": 37.67,
+            "a": 41.21,
+            "b": 27.24
+        },
+        "color_family": "Đỏ Đất / Gạch",
+        "price_tier": "Affordable",
+        "image_path": "data/images/romand_04_vintage_ocean.svg",
+        "original_image_url": "https://romand.vn/cdn/shop/products/04_vintage_ocean.jpg",
+        "dupes": []
+    }
+]

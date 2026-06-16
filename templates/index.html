@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% block title %}Trang Chủ | Lipstick Luxe E-commerce{% endblock %}
+{% block content %}
+
+    <!-- HERO BANNER -->
+    <section class="premium-banner" id="hero-banner">
+        <div class="banner-glow"></div>
+        <div class="banner-content">
+            <span class="banner-badge">Sản Phẩm Cao Cấp Tiêu Biểu</span>
+            <h2 class="banner-title">Dior Rouge Dior 999</h2>
+            <p class="banner-description">Dòng son mang tính biểu tượng của sự kiêu sa kiểu Pháp. Chất son Velvet nhung mềm mại, lâu trôi trong 16 giờ, tôn vinh sắc đỏ huyền thoại giúp bạn tỏa sáng ở mọi góc nhìn.</p>
+            <div class="banner-actions">
+                <a href="/product/1" class="btn-primary" style="text-decoration: none;">
+                    CHI TIẾT & THỬ AR CẬP NHẬT
+                </a>
+                <a href="/shop" class="btn-export" style="text-decoration: none; margin-left: 12px; border-color: var(--accent-gold);">
+                    MUA NGAY
+                </a>
+            </div>
+        </div>
+        <div class="banner-image-container" id="hero-lipstick-casing" style="width: 200px; height: 300px; margin: 0 auto;">
+            <!-- Rendered by JS dynamic SVG lipstick -->
+        </div>
+    </section>
+
+    <!-- HIGHLIGHT FEATURED PRODUCTS GRID -->
+    <section class="glass-panel">
+        <h2 class="section-title">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent-gold)" stroke-width="2" style="vertical-align: middle;"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            Sản Phẩm Son Môi Nổi Bật (Featured Selection)
+        </h2>
+        <div class="product-grid" id="featured-products-grid">
+            <!-- Dynamic cards loaded via JS -->
+        </div>
+    </section>
+
+    <!-- AI RECOMMENDATION PREVIEW GRID -->
+    <section class="glass-panel" id="home-recommendations-panel" style="display: none;">
+        <h2 class="section-title">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent-gold)" stroke-width="2" style="vertical-align: middle;"><path d="M12 2v20"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            Gợi Ý Màu Son Dành Riêng Cho Bạn (AI Personalized Recommendations)
+        </h2>
+        <p style="color: var(--text-muted); font-size: 14px; margin-bottom: 25px;">
+            Thuật toán gợi ý đã phân tích hồ sơ sắc độ da của bạn để lọc ra các thỏi son có tỷ lệ tương thích cao nhất.
+        </p>
+        <div class="product-grid" id="home-recommendations-grid">
+            <!-- Dynamic recommendations cards loaded via JS -->
+        </div>
+    </section>
+
+{% endblock %}

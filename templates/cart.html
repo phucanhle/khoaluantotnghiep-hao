@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+{% block title %}Giỏ Hàng & Thanh Toán | Lipstick Luxe{% endblock %}
+{% block content %}
+
+    <h1 style="font-family: 'Playfair Display', serif; font-size: 30px; color: #fff; margin-bottom: 25px;">Giỏ Hàng Của Bạn</h1>
+    
+    <div class="checkout-grid">
+        
+        <!-- LEFT: CART LIST TABLE -->
+        <div class="glass-panel" style="padding: 24px;">
+            <table style="width: 100%; border-collapse: collapse; text-align: left;" id="cart-table">
+                <thead>
+                    <tr style="border-bottom: 1px solid rgba(255,255,255,0.08); color: var(--accent-gold); font-size: 13px; text-transform: uppercase;">
+                        <th style="padding: 12px 8px;">Sản phẩm</th>
+                        <th style="padding: 12px 8px;">Hãng</th>
+                        <th style="padding: 12px 8px; text-align: center;">Màu son</th>
+                        <th style="padding: 12px 8px; text-align: center;">Số lượng</th>
+                        <th style="padding: 12px 8px; text-align: right;">Đơn giá</th>
+                        <th style="padding: 12px 8px; text-align: right;">Tổng</th>
+                        <th style="padding: 12px 8px; text-align: center;">Xóa</th>
+                    </tr>
+                </thead>
+                <tbody id="cart-items-body">
+                    <!-- Dynamic cart items rendered by JS -->
+                    <tr>
+                        <td colspan="7" style="text-align: center; padding: 40px; color: var(--text-muted); font-style: italic;">
+                            Giỏ hàng của bạn đang trống. Hãy quay lại <a href="/shop" style="color: var(--accent-gold);">Cửa hàng</a> để lựa chọn sản phẩm!
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 25px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.08);">
+                <a href="/shop" class="btn-export" style="text-decoration: none; border-color: var(--text-muted); color: var(--text-muted);">Tiếp tục mua hàng</a>
+                <div style="font-size: 18px; color: #fff; font-weight: 600;">Tổng thanh toán: <span id="cart-total-display" style="color: var(--accent-gold); font-size: 22px;">0.000₫</span></div>
+            </div>
+        </div>
+        
+        <!-- RIGHT: BILLING CHECKOUT FORM -->
+        <div class="glass-panel" style="padding: 24px;">
+            <h3 style="font-size: 16px; color: var(--accent-gold); margin-bottom: 20px; text-transform: uppercase; letter-spacing: 1px; border-bottom: 1px solid rgba(255,255,255,0.06); padding-bottom: 10px;">Thông Tin Nhận Hàng</h3>
+            
+            <div style="display: flex; flex-direction: column; gap: 15px;">
+                <div class="input-group">
+                    <label for="checkout-name">Họ và Tên người nhận</label>
+                    <input type="text" id="checkout-name" class="search-input-wrapper" style="padding: 12px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius-md); color:#fff;" placeholder="Nguyễn Văn A">
+                </div>
+                
+                <div class="input-group">
+                    <label for="checkout-phone">Số Điện Thoại</label>
+                    <input type="text" id="checkout-phone" style="padding: 12px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius-md); color:#fff;" placeholder="0901234567">
+                </div>
+                
+                <div class="input-group">
+                    <label for="checkout-address">Địa Chỉ Giao Hàng</label>
+                    <textarea id="checkout-address" rows="3" style="padding: 12px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius-md); color:#fff; font-family: inherit; resize: none;" placeholder="Số 123 Đường ABC, Quận 1, TP.HCM"></textarea>
+                </div>
+                
+                <div class="input-group">
+                    <label for="checkout-payment">Phương Thức Thanh Toán</label>
+                    <div class="select-wrapper">
+                        <select id="checkout-payment">
+                            <option value="COD">Thanh toán khi nhận hàng (COD)</option>
+                            <option value="Bank">Chuyển khoản ngân hàng (Bank Transfer)</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <button class="btn-primary" id="btn-submit-order" style="width: 100%; justify-content: center; padding: 14px; margin-top: 15px;">
+                    ĐẶT HÀNG & THANH TOÁN
+                </button>
+            </div>
+        </div>
+        
+    </div>
+
+{% endblock %}
