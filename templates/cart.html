@@ -2,76 +2,128 @@
 {% block title %}Giỏ Hàng & Thanh Toán | Lipstick Luxe{% endblock %}
 {% block content %}
 
-    <h1 style="font-family: 'Playfair Display', serif; font-size: 30px; color: #fff; margin-bottom: 25px;">Giỏ Hàng Của Bạn</h1>
-    
+    <!-- PAGE HEADER -->
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Trang Chủ</a>
+        <span class="separator" aria-hidden="true">›</span>
+        <span class="current" aria-current="page">Giỏ Hàng</span>
+    </nav>
+
+    <div style="margin-bottom: var(--sp-xxl);">
+        <h1 style="font-family: var(--font-display); font-size: var(--type-display-lg); font-weight: 500; color: var(--ink-deep); line-height: 1.17; letter-spacing: 0; font-feature-settings: 'ss01','ss02';">Giỏ Hàng</h1>
+    </div>
+
     <div class="checkout-grid">
-        
-        <!-- LEFT: CART LIST TABLE -->
-        <div class="glass-panel" style="padding: 24px;">
-            <table style="width: 100%; border-collapse: collapse; text-align: left;" id="cart-table">
+
+        <!-- LEFT: Cart Items Table -->
+        <div class="glass-panel" style="padding: var(--sp-xxl);">
+            <h2 style="font-size: var(--type-heading-sm); font-weight: 500; color: var(--ink-deep); margin-bottom: var(--sp-xl); font-family: var(--font-display); font-feature-settings: 'ss01','ss02';">
+                Sản Phẩm Đã Chọn
+            </h2>
+
+            <table id="cart-table" aria-label="Danh sách sản phẩm trong giỏ hàng">
                 <thead>
-                    <tr style="border-bottom: 1px solid rgba(255,255,255,0.08); color: var(--accent-gold); font-size: 13px; text-transform: uppercase;">
-                        <th style="padding: 12px 8px;">Sản phẩm</th>
-                        <th style="padding: 12px 8px;">Hãng</th>
-                        <th style="padding: 12px 8px; text-align: center;">Màu son</th>
-                        <th style="padding: 12px 8px; text-align: center;">Số lượng</th>
-                        <th style="padding: 12px 8px; text-align: right;">Đơn giá</th>
-                        <th style="padding: 12px 8px; text-align: right;">Tổng</th>
-                        <th style="padding: 12px 8px; text-align: center;">Xóa</th>
+                    <tr>
+                        <th scope="col">Sản Phẩm</th>
+                        <th scope="col">Thương Hiệu</th>
+                        <th scope="col" style="text-align: center;">Màu Son</th>
+                        <th scope="col" style="text-align: center;">Số Lượng</th>
+                        <th scope="col" style="text-align: right;">Đơn Giá</th>
+                        <th scope="col" style="text-align: right;">Thành Tiền</th>
+                        <th scope="col" style="text-align: center;">Xóa</th>
                     </tr>
                 </thead>
                 <tbody id="cart-items-body">
                     <!-- Dynamic cart items rendered by JS -->
-                    <tr>
-                        <td colspan="7" style="text-align: center; padding: 40px; color: var(--text-muted); font-style: italic;">
-                            Giỏ hàng của bạn đang trống. Hãy quay lại <a href="/shop" style="color: var(--accent-gold);">Cửa hàng</a> để lựa chọn sản phẩm!
+                    <tr id="cart-empty-row">
+                        <td colspan="7" style="text-align: center; padding: var(--sp-section) var(--sp-xl);">
+                            <div style="font-size: 40px; margin-bottom: var(--sp-base); opacity: 0.3;" aria-hidden="true">🛒</div>
+                            <p style="font-size: var(--type-body-md); color: var(--slate); letter-spacing: -0.16px; margin-bottom: var(--sp-base);">Giỏ hàng của bạn đang trống.</p>
+                            <a href="/shop" style="color: var(--primary); text-decoration: none; font-weight: 700; font-size: var(--type-body-sm); letter-spacing: -0.14px;">
+                                Khám phá cửa hàng →
+                            </a>
                         </td>
                     </tr>
                 </tbody>
             </table>
-            
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 25px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.08);">
-                <a href="/shop" class="btn-export" style="text-decoration: none; border-color: var(--text-muted); color: var(--text-muted);">Tiếp tục mua hàng</a>
-                <div style="font-size: 18px; color: #fff; font-weight: 600;">Tổng thanh toán: <span id="cart-total-display" style="color: var(--accent-gold); font-size: 22px;">0.000₫</span></div>
+
+            <!-- Cart footer: continue + total -->
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: var(--sp-xxl); padding-top: var(--sp-xl); border-top: 1px solid var(--hairline-soft); flex-wrap: wrap; gap: var(--sp-base);">
+                <a href="/shop" class="btn-ghost" style="text-decoration: none;">
+                    ← Tiếp Tục Mua Hàng
+                </a>
+                <div style="font-size: var(--type-body-md); color: var(--ink); font-weight: 500; letter-spacing: -0.16px;">
+                    Tổng thanh toán:
+                    <span id="cart-total-display" style="color: var(--ink-deep); font-size: var(--type-heading-sm); font-weight: 700; font-family: var(--font-display); margin-left: var(--sp-xs);">0₫</span>
+                </div>
             </div>
         </div>
-        
-        <!-- RIGHT: BILLING CHECKOUT FORM -->
-        <div class="glass-panel" style="padding: 24px;">
-            <h3 style="font-size: 16px; color: var(--accent-gold); margin-bottom: 20px; text-transform: uppercase; letter-spacing: 1px; border-bottom: 1px solid rgba(255,255,255,0.06); padding-bottom: 10px;">Thông Tin Nhận Hàng</h3>
-            
-            <div style="display: flex; flex-direction: column; gap: 15px;">
+
+        <!-- RIGHT: Order Summary & Checkout Form -->
+        <div class="card-checkout-summary" id="checkout-summary-rail" style="position: sticky; top: 80px;">
+            <h2 style="font-size: var(--type-heading-sm); font-weight: 500; color: var(--ink-deep); margin-bottom: var(--sp-xl); font-family: var(--font-display); font-feature-settings: 'ss01','ss02'; border-bottom: 1px solid var(--hairline-soft); padding-bottom: var(--sp-base);">
+                Thông Tin Nhận Hàng
+            </h2>
+
+            <div style="display: flex; flex-direction: column; gap: var(--sp-lg);">
+
                 <div class="input-group">
                     <label for="checkout-name">Họ và Tên người nhận</label>
-                    <input type="text" id="checkout-name" class="search-input-wrapper" style="padding: 12px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius-md); color:#fff;" placeholder="Nguyễn Văn A">
+                    <input type="text" id="checkout-name" autocomplete="name" placeholder="Nguyễn Văn A">
                 </div>
-                
+
                 <div class="input-group">
                     <label for="checkout-phone">Số Điện Thoại</label>
-                    <input type="text" id="checkout-phone" style="padding: 12px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius-md); color:#fff;" placeholder="0901234567">
+                    <input type="tel" id="checkout-phone" autocomplete="tel" placeholder="0901 234 567">
                 </div>
-                
+
                 <div class="input-group">
                     <label for="checkout-address">Địa Chỉ Giao Hàng</label>
-                    <textarea id="checkout-address" rows="3" style="padding: 12px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius-md); color:#fff; font-family: inherit; resize: none;" placeholder="Số 123 Đường ABC, Quận 1, TP.HCM"></textarea>
+                    <textarea id="checkout-address" rows="3" autocomplete="street-address" placeholder="Số 123 Đường ABC, Quận 1, TP.HCM" style="resize: none; height: auto; padding: var(--sp-md) var(--sp-base); background: var(--canvas); border: 1px solid var(--hairline); border-radius: var(--rounded-lg); font-family: var(--font-body); font-size: var(--type-body-sm); color: var(--ink); width: 100%;"></textarea>
                 </div>
-                
+
                 <div class="input-group">
                     <label for="checkout-payment">Phương Thức Thanh Toán</label>
                     <div class="select-wrapper">
                         <select id="checkout-payment">
                             <option value="COD">Thanh toán khi nhận hàng (COD)</option>
-                            <option value="Bank">Chuyển khoản ngân hàng (Bank Transfer)</option>
+                            <option value="Bank">Chuyển khoản ngân hàng</option>
                         </select>
                     </div>
                 </div>
-                
-                <button class="btn-primary" id="btn-submit-order" style="width: 100%; justify-content: center; padding: 14px; margin-top: 15px;">
-                    ĐẶT HÀNG & THANH TOÁN
+
+                <!-- Order summary mini -->
+                <div style="background: var(--surface-soft); border-radius: var(--rounded-xl); padding: var(--sp-base) var(--sp-lg); display: flex; flex-direction: column; gap: var(--sp-xs);">
+                    <div style="display: flex; justify-content: space-between; font-size: var(--type-body-sm); color: var(--slate); letter-spacing: -0.14px;">
+                        <span>Tổng sản phẩm</span>
+                        <span id="summary-subtotal">0₫</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; font-size: var(--type-body-sm); color: var(--success); letter-spacing: -0.14px;">
+                        <span>Vận chuyển</span>
+                        <span>Miễn phí</span>
+                    </div>
+                    <div style="height: 1px; background: var(--hairline-soft); margin: var(--sp-xs) 0;"></div>
+                    <div style="display: flex; justify-content: space-between; font-size: var(--type-subtitle-lg); font-weight: 700; color: var(--ink-deep); letter-spacing: 0;">
+                        <span>Tổng cộng</span>
+                        <span id="summary-total">0₫</span>
+                    </div>
+                </div>
+
+                <!-- Cobalt buy CTA — commerce flow -->
+                <button class="btn-buy-cta" id="btn-submit-order" style="width: 100%; font-size: var(--type-body-md);">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                    Đặt Hàng & Thanh Toán
                 </button>
+
+                <!-- Reassurance row -->
+                <div style="display: flex; justify-content: center; gap: var(--sp-xl); font-size: 11px; color: var(--stone); letter-spacing: 0; flex-wrap: wrap;">
+                    <span>🔒 Thanh toán bảo mật</span>
+                    <span>📦 Giao hàng 2 ngày</span>
+                    <span>↩ Đổi trả 30 ngày</span>
+                </div>
             </div>
         </div>
-        
+
     </div>
 
 {% endblock %}

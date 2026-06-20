@@ -1,8 +1,13 @@
 import os
 import json
+import mimetypes
 from flask import Flask, render_template, jsonify, request, redirect, session, url_for, send_from_directory
 import database
 import recommendation
+
+# Explicitly register WebAssembly and data MIME types (highly critical for mobile browsers compiling WASM)
+mimetypes.add_type('application/wasm', '.wasm')
+mimetypes.add_type('application/octet-stream', '.data')
 
 app = Flask(__name__, 
             static_folder="static",
@@ -53,6 +58,49 @@ def admin_dashboard():
 @app.route('/data/<path:filename>')
 def serve_data_files(filename):
     return send_from_directory('data', filename)
+
+@app.after_request
+def add_header(response):
+    # Enable aggressive caching for static assets (js, css, images) to improve loading speed
+    if request.path.startswith('/static/'):
+        response.headers['Cache-Control'] = 'public, max-age=31536000, immutable'
+    else:
+        # Prevent caching of dynamic HTML and API responses to guarantee immediate updates on mobile devices
+        response.headers['Cache-Control'] = 'no-store, no-cache, must-revalidate, post-check=0, pre-check=0, max-age=0'
+        response.headers['Pragma'] = 'no-cache'
+        response.headers['Expires'] = '0'
+        
+    # Dynamic Gzip compression for text-based and JSON responses to improve mobile transfer speeds
+    import gzip
+    import io
+    
+    accept_encoding = request.headers.get('Accept-Encoding', '')
+    content_type = response.content_type or ''
+    is_compressible = (
+        'text/' in content_type or 
+        'javascript' in content_type or 
+        'json' in content_type
+    )
+    
+    if (response.status_code >= 200 and 
+        response.status_code < 300 and 
+        'gzip' in accept_encoding and 
+        is_compressible and 
+        'Content-Encoding' not in response.headers):
+        
+        response.direct_passthrough = False
+        data = response.get_data()
+        
+        if len(data) >= 500:
+            gzip_buffer = io.BytesIO()
+            with gzip.GzipFile(mode='wb', fileobj=gzip_buffer) as gzip_file:
+                gzip_file.write(data)
+            
+            response.set_data(gzip_buffer.getvalue())
+            response.headers['Content-Encoding'] = 'gzip'
+            response.headers['Content-Length'] = len(response.get_data())
+            
+    return response
 
 # ==========================================================================
 # AUTHENTICATION APIS
@@ -479,4 +527,15 @@ def export_composite_data():
     return jsonify(composite_data)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    import sys
+    use_https = '--https' in sys.argv
+    ssl_ctx = 'adhoc' if use_https else None
+    
+    if use_https:
+        print("\n" + "="*80)
+        print(" RUNNING SERVER UNDER HTTPS (SELF-SIGNED SSL)")
+        print(" Your phone URL: https://<YOUR_COMPUTER_IP>:5000/")
+        print(" Note: The browser will show a security warning. Click 'Advanced' -> 'Proceed' to bypass it.")
+        print("="*80 + "\n")
+        
+    app.run(host='0.0.0.0', port=5000, debug=not use_https, ssl_context=ssl_ctx)
