@@ -15,18 +15,38 @@ Dự án sử dụng mô hình kết hợp (Hybrid Architecture) chia làm hai t
    - Có khả năng chạy ngoại tuyến (Offline) 100% nhờ bộ nhớ đệm hình ảnh cục bộ, đảm bảo không gặp bất kỳ sự cố kết nối nào khi trình bày trước hội đồng khóa luận.
 
 ```
-e:\KLTN\
-├── data/
-│   ├── images/         # Thư mục lưu trữ hình ảnh sản phẩm tải về máy cục bộ
-│   ├── lipsticks.json  # Cơ sở dữ liệu chính dạng cấu trúc JSON đã chuẩn hóa màu
-│   ├── lipsticks.csv   # Bảng Excel phẳng phục vụ phân tích số liệu khóa luận
-│   └── lipsticks.sql   # Script SQL chứa câu lệnh INSERT dữ liệu nhúng sẵn ảnh Base64
-├── scrape.py           # Script chính cào dữ liệu, xử lý màu & tìm bản dupe
-├── requirements.txt    # Danh sách thư viện Python phụ thuộc
-├── index.html          # Giao diện Web Dashboard trực quan tiếng Việt
-├── styles.css          # Định dạng phong cách giao diện tối (Dark Mode) Glassmorphism
-├── app.js              # Xử lý logic tương tác lọc, tìm kiếm và phân tích dupe trên web
-└── README.md           # Hướng dẫn kỹ thuật thuyết minh KLTN này
+e:\Projects\outsource\ (Thư mục dự án)
+├── data/                 # Thư mục dữ liệu cào được
+│   ├── images/           # Ảnh mẫu sản phẩm cục bộ
+│   ├── lipsticks.csv     # Dữ liệu xuất dạng CSV
+│   ├── lipsticks.json    # Dữ liệu xuất dạng JSON
+│   └── lipsticks.sql     # Dữ liệu xuất dạng SQL MySQL
+├── static/               # Các tài nguyên tĩnh phục vụ web
+│   ├── css/
+│   │   └── styles.css    # Thiết kế phong cách và bố cục Glassmorphism cao cấp
+│   ├── js/
+│   │   ├── app.js        # Logic tương tác trang chủ, giỏ hàng và gợi ý màu
+│   │   ├── ar-tryon.js   # Module xử lý camera WebRTC và bộ lọc son môi AR canvas
+│   │   └── mediapipe/    # Bộ mô hình AI FaceMesh cục bộ phục vụ chạy offline
+│   │       ├── face_mesh.js
+│   │       ├── face_mesh.binarypb
+│   │       └── ... (các file WASM và dữ liệu mô hình FaceMesh)
+│   └── images/           # Ảnh thực tế của các dòng son
+├── templates/            # Các tệp giao diện HTML mẫu (Flask Jinja2)
+│   ├── base.html         # Khung giao diện chung của ứng dụng
+│   ├── index.html        # Trang chủ bảng điều khiển
+│   ├── shop.html         # Trang mua sắm bộ lọc son nâng cao
+│   ├── product.html      # Trang chi tiết sản phẩm tích hợp Gương thử AR
+│   ├── cart.html         # Giỏ hàng mua sắm giả lập
+│   ├── profile.html      # Trang tài khoản cá nhân & Trắc nghiệm Personal Color
+│   └── admin.html        # Trang quản trị phân tích số liệu hệ thống
+├── database.py           # Module kết nối cơ sở dữ liệu (Hỗ trợ MySQL hoặc SQLite tự động)
+├── server.py             # Máy chủ Flask trung tâm điều phối toàn bộ ứng dụng web
+├── recommendation.py     # Module AI gợi ý màu son dựa trên cá nhân hóa
+├── scrape.py             # Script cào, xử lý màu & phân tích dupe
+├── apply_real_images.py  # Script cập nhật ảnh thật thay thế ảnh vector mặc định
+├── requirements.txt      # Danh sách thư viện Python phụ thuộc
+└── README.md             # Hướng dẫn kỹ thuật thuyết minh KLTN này
 ```
 
 ---
@@ -90,51 +110,86 @@ $$\Delta E^* = \sqrt{(L^*_1 - L^*_2)^2 + (a^*_1 - a^*_2)^2 + (b^*_1 - b^*_2)^2}$
 
 ---
 
-## 3. Hướng Dẫn Vận Hành Hệ Thống
+## 3. Hướng Dẫn Vận Hành & Cài Đặt Hệ Thống (Môi trường khác từ Git)
 
-### Bước 1: Cài đặt môi trường Python
-Hệ thống yêu cầu cài đặt Python 3.8 trở lên. Mở PowerShell trong thư mục dự án và thực hiện cài đặt các thư viện cần thiết:
-```powershell
-pip install -r requirements.txt
+Làm theo các bước sau để thiết lập dự án hoạt động trên máy tính mới:
+
+### Bước 1: Chuẩn bị mã nguồn
+Clone dự án từ GitHub và di chuyển vào thư mục dự án:
+```bash
+git clone https://github.com/phucanhle/lipstick-ecommerce.git
+cd lipstick-ecommerce
 ```
 
-Nếu bạn muốn chạy cào dữ liệu động qua trình duyệt Playwright, hãy cài đặt các trình duyệt đi kèm:
-```powershell
-playwright install
-```
+### Bước 2: Cài đặt và cấu hình Python
+Hệ thống yêu cầu cài đặt **Python 3.8+** (khuyên dùng Python 3.10 hoặc 3.11).
+1. Khởi tạo môi trường ảo (Virtual Environment) để quản lý các gói thư viện sạch sẽ:
+   ```powershell
+   python -m venv venv
+   ```
+2. Kích hoạt môi trường ảo:
+   * **Windows PowerShell**:
+     ```powershell
+     .\venv\Scripts\activate
+     ```
+   * **Linux/macOS**:
+     ```bash
+     source venv/bin/activate
+     ```
+3. Cài đặt các thư viện bắt buộc trong `requirements.txt`:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-### Bước 2: Chạy script cào & xử lý chuẩn hóa dữ liệu son
-Chạy script Python để bắt đầu quy trình cào dữ liệu, xử lý không gian màu Lab/HSL, ghép cặp son dupe và tự động tải hình ảnh về máy:
-```powershell
-python scrape.py
-```
-Sau khi chạy xong, trong thư mục dự án sẽ tự động xuất hiện:
-- Thư mục `data/images/` chứa toàn bộ tệp ảnh tải về.
-- File `data/lipsticks.json` chứa dữ liệu cấu trúc chi tiết dùng cho dashboard.
-- File `data/lipsticks.csv` chứa bảng dữ liệu phẳng dạng Excel để làm báo cáo KLTN.
-- File `data/lipsticks.sql` chứa mã lệnh SQL INSERT nhúng ảnh Base64 sẵn để nạp dữ liệu thẳng vào DB.
+*(Lưu ý: Nếu bạn muốn chạy lại script cào dữ liệu `scrape.py` bằng Playwright, bạn cần cài đặt thêm các nhân trình duyệt bằng lệnh: `playwright install`).*
 
-### Bước 3: Mở Bảng điều khiển Web Dashboard
-Bạn chỉ cần mở trực tiếp file `index.html` bằng bất kỳ trình duyệt web hiện đại nào (Chrome, Edge, Firefox, Safari) để hiển thị giao diện:
-- Nhấp đúp chuột vào file `index.html` hoặc mở bằng trình duyệt.
-- Bạn có thể lọc danh sách theo hãng (8 hãng), theo nhóm màu đã chuẩn hóa (Đỏ, Hồng, Cam, Nude...), theo phân khúc giá hoặc nhập văn bản tìm kiếm nhanh.
-- Nhấp vào nút **"PHÂN TÍCH BẢN DUPE"** dưới bất kỳ thỏi son xa xỉ nào, hoặc nhấp vào chấm tròn màu trên **Bảng quang phổ Swatch Wall** để xem bảng đối chiếu song song và phân tích các chỉ số màu sắc toán học chi tiết.
-- Sử dụng các nút **"Xuất file JSON"**, **"Xuất file CSV"** và **"Xuất file SQL (Nhúng Base64)"** ở góc dưới giao diện để tải các tệp dữ liệu về máy nhanh chóng.
+### Bước 3: Cấu hình Cơ Sở Dữ Liệu (Hệ thống Hybrid DB)
+Hệ thống được thiết kế linh hoạt hỗ trợ cả MySQL và SQLite tự động:
+* **Tự động chuyển đổi (SQLite Fallback)**: Mặc định, nếu hệ thống phát hiện không có cơ sở dữ liệu MySQL chạy trên `localhost:3306`, nó sẽ **tự động chuyển sang sử dụng SQLite** (tạo file tại [data/lipsticks.db](file:///e:/Projects/outsource/data/lipsticks.db)), tự sinh toàn bộ cấu trúc bảng và nạp dữ liệu mẫu vào thỏi son. Bạn **không cần** thực hiện cấu hình phức tạp nào.
+* **Cấu hình MySQL (Nếu muốn chạy trên server MySQL)**:
+  1. Đảm bảo dịch vụ MySQL đang chạy trên cổng mặc định `3306`.
+  2. Mở file [database.py](file:///e:/Projects/outsource/database.py) và cập nhật thông số tài khoản đăng nhập (Host, Port, User, Password) trong biến `DB_CONFIG` ở đầu file.
+  3. Hệ thống sẽ tự động tạo cơ sở dữ liệu `kltn_lipsticks` và khởi tạo toàn bộ bảng khi server khởi chạy lần đầu.
+
+### Bước 4: Khởi chạy máy chủ Web Flask
+Ứng dụng sử dụng Flask để xử lý backend, kết nối cơ sở dữ liệu và cung cấp API.
+
+* **Chạy thử nghiệm trên máy tính nội bộ (Localhost Only)**:
+  ```powershell
+  python server.py
+  ```
+  Truy cập vào ứng dụng tại: `http://127.0.0.1:5000`
+
+* **Chạy thử nghiệm trên điện thoại / Thiết bị khác trong mạng LAN (HTTPS bắt buộc)**:
+  Công nghệ camera WebRTC trên các trình duyệt hiện đại bắt buộc phải chạy dưới **Secure Context (HTTPS)** thì mới được phép bật camera. Flask đã tích hợp cơ chế tự ký chứng chỉ SSL (adhoc SSL):
+  ```powershell
+  python server.py --https
+  ```
+  1. Khi chạy lệnh này, màn hình sẽ hiển thị địa chỉ IP máy tính của bạn trong mạng LAN (ví dụ: `https://192.168.2.2:5000`).
+  2. Đảm bảo điện thoại của bạn kết nối **cùng một mạng Wi-Fi** với máy tính.
+  3. Truy cập địa chỉ IP đó trên điện thoại. Trình duyệt di động sẽ hiển thị cảnh báo chứng chỉ tự ký không an toàn (Not Secure / Connection not private).
+  4. Bạn hãy bấm vào nút **"Nâng cao" (Advanced)** -> chọn **"Tiếp tục truy cập (Không an toàn)" (Proceed to... / Visit this website)** để bỏ qua cảnh báo bảo mật.
+  5. Click **"Kích Hoạt Camera"** trên điện thoại để trải nghiệm gương thử son AR.
 
 ---
 
-## 4. Bộ Thu Thập & Tạo Dữ Liệu Huấn Luyện Gợi Ý (KLTN Addon)
+## 4. Các Tài Khoản Mặc Định & Chức Năng Quản Trị
 
-Để huấn luyện một hệ thống gợi ý (Recommendation System) cho khóa luận tốt nghiệp, hệ thống tích hợp sẵn mô-đun **Bộ Thu Thập & Tạo Dữ Liệu Huấn Luyện** tương tác trực tiếp trên Dashboard:
+* **Tài khoản quản trị viên (Admin Dashboard)**:
+  * **Tên đăng nhập**: `admin`
+  * **Mật khẩu**: `admin123`
+  * Chức năng: Đăng nhập tại trang tài khoản để truy cập giao diện quản trị Admin, trực quan hóa biểu đồ doanh thu, cơ cấu phân khúc son, xuất các báo cáo SQL/JSON/CSV để phục vụ thuyết minh khóa luận tốt nghiệp.
+* **Bảo mật Secret Key**:
+  Hệ thống bảo mật Session của Flask bằng biến môi trường `FLASK_SECRET_KEY` nhằm vượt qua các bộ kiểm tra mã độc GitHub (GitGuardian). Nếu biến này không được thiết lập, server sẽ tự động sinh mã khóa ngẫu nhiên mới mỗi lần khởi động. Để cố định Session trong môi trường production, bạn có thể thiết lập biến môi trường trước khi chạy:
+  * Windows PowerShell: `$env:FLASK_SECRET_KEY="your_custom_secret_key"`
+  * Linux/macOS: `export FLASK_SECRET_KEY="your_custom_secret_key"`
 
-* **Tính năng Thu Thập Thủ Công**:
-  - Người dùng điền thông tin hồ sơ (Tông da, Sắc tố phụ Undertone, Màu sắc cá nhân, Chất son ưa thích).
-  - Đánh giá xếp hạng (1-5 sao) cho 6 thỏi son ngẫu nhiên bên phải.
-  - Click **"Thêm mẫu thử"** để đóng gói thành 1 bản ghi dữ liệu huấn luyện.
-* **Tính năng Giả Lập Tự Động (Synthetic Data Generator)**:
-  - Click **"Tự động tạo 100 mẫu"** để lập tức giả lập 100 hồ sơ người dùng thực tế.
-  - Thuật toán giả lập tự động áp dụng các quy tắc chuyên gia sắc đẹp (Beauty Rules) thực tế để gán điểm đánh giá (1-5 sao) cho son (ví dụ: người có sắc tố da Ấm/Warm sẽ ưu tiên đánh giá cao các màu đỏ đất/cam/san hô, da Sáng/Fair sẽ đánh giá cao tone hồng ngọt...).
-* **Xuất tập dữ liệu huấn luyện**:
-  - Bạn có thể xuất tập dữ liệu huấn luyện thu thập được ra file JSON (`recommendation_training_data.json`) hoặc CSV phẳng (`recommendation_training_data.csv`).
-  - File CSV được chuẩn hóa hoàn hảo để nạp trực tiếp vào các thuật toán gợi ý của Python (như Collaborative Filtering sử dụng thư viện `scikit-surprise` hoặc các mô hình học sâu PyTorch/TensorFlow).
+---
+
+## 5. Tạo Dữ Liệu Huấn Luyện Gợi Ý (Recommendation System Addon)
+
+Hệ thống tích hợp sẵn mô-đun **Bộ Thu Thập & Tạo Dữ Liệu Huấn Luyện** tương tác trực tiếp trên Dashboard của người dùng:
+* **Tính năng Thu Thập Thủ Công**: Người dùng điền thông tin hồ sơ cá nhân và đánh giá xếp hạng (1-5 sao) cho 6 thỏi son ngẫu nhiên bên phải, nhấn **"Thêm mẫu thử"** để lưu trữ.
+* **Tính năng Giả Lập Tự Động (Synthetic Data Generator)**: Click **"Tự động tạo 100 mẫu"** để lập tức giả lập 100 hồ sơ người dùng thực tế. Thuật toán giả lập tự động áp dụng các quy tắc chuyên gia sắc đẹp (Beauty Rules) thực tế để gán điểm đánh giá.
+* **Xuất tập dữ liệu huấn luyện**: Bạn có thể xuất tập dữ liệu thu thập được ra file JSON (`recommendation_training_data.json`) hoặc CSV phẳng (`recommendation_training_data.csv`). File CSV được chuẩn hóa hoàn hảo để nạp trực tiếp vào các mô hình học máy gợi ý (ví dụ: Collaborative Filtering sử dụng thư viện `scikit-surprise` của Python).
 
