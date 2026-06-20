@@ -13,8 +13,8 @@ app = Flask(__name__,
             static_folder="static",
             template_folder="templates")
 
-# Secret key for sessions
-app.secret_key = "kltn_phung_to_hao_secret_key_2026"
+# Secret key for sessions (loaded securely from environment variable or generated dynamically)
+app.secret_key = os.environ.get("FLASK_SECRET_KEY") or os.urandom(24)
 
 # Ensure DB is initialized on startup
 database.init_db()
