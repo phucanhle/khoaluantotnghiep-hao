@@ -22,7 +22,7 @@
         },
         "color_family": "Đỏ",
         "price_tier": "Luxury",
-        "image_path": "data/images/dior_999_velvet.svg",
+        "image_path": "data/images/dior_999_velvet.png",
         "original_image_url": "https://www.dior.com/dw/image/v2/BBDV_PRD/on/demandware.static/-/Sites-master_deparment_store/default/dw83ab35d9/assets/Y0996452/Y0996452_C099600999_E01.jpg?sw=800&sh=800&sm=fit",
         "dupes": [
             {
@@ -33,7 +33,7 @@
                 "hex_code": "#CE2847",
                 "similarity": 74.8,
                 "delta_e": 7.21,
-                "image_path": "data/images/blackrouge_a15_sunny_rose.svg"
+                "image_path": "data/images/blackrouge_a15_sunny_rose.png"
             }
         ]
     },
@@ -60,7 +60,7 @@
         },
         "color_family": "Đỏ",
         "price_tier": "Luxury",
-        "image_path": "data/images/dior_720_icone_velvet.svg",
+        "image_path": "data/images/dior_720_icone_velvet.png",
         "original_image_url": "https://www.dior.com/dw/image/v2/BBDV_PRD/on/demandware.static/-/Sites-master_deparment_store/default/dw543b5936/assets/Y0996452/Y0996452_C099600720_E01.jpg?sw=800&sh=800&sm=fit",
         "dupes": [
             {
@@ -71,7 +71,7 @@
                 "hex_code": "#A9484C",
                 "similarity": 74.4,
                 "delta_e": 7.31,
-                "image_path": "data/images/blackrouge_a31_dry_rose.svg"
+                "image_path": "data/images/blackrouge_a31_dry_rose.png"
             },
             {
                 "id": 46,
@@ -81,7 +81,7 @@
                 "hex_code": "#B55D61",
                 "similarity": 71.3,
                 "delta_e": 8.19,
-                "image_path": "data/images/romand_07_jujube.svg"
+                "image_path": "data/images/romand_07_jujube.png"
             }
         ]
     },
@@ -108,7 +108,7 @@
         },
         "color_family": "Hồng",
         "price_tier": "Luxury",
-        "image_path": "data/images/dior_100_nude_look_matte.svg",
+        "image_path": "data/images/dior_100_nude_look_matte.png",
         "original_image_url": "https://www.dior.com/dw/image/v2/BBDV_PRD/on/demandware.static/-/Sites-master_deparment_store/default/dwe310a0fe/assets/Y0996452/Y0996452_C099600100_E01.jpg?sw=800&sh=800&sm=fit",
         "dupes": [
             {
@@ -119,7 +119,7 @@
                 "hex_code": "#BD8D97",
                 "similarity": 74.4,
                 "delta_e": 7.3,
-                "image_path": "data/images/romand_25_bare_grape.svg"
+                "image_path": "data/images/romand_25_bare_grape.png"
             },
             {
                 "id": 49,
@@ -129,7 +129,7 @@
                 "hex_code": "#D78B88",
                 "similarity": 71.9,
                 "delta_e": 8.04,
-                "image_path": "data/images/romand_18_mulled_peach.svg"
+                "image_path": "data/images/romand_18_mulled_peach.png"
             },
             {
                 "id": 52,
@@ -139,7 +139,7 @@
                 "hex_code": "#B37D73",
                 "similarity": 66.9,
                 "delta_e": 9.47,
-                "image_path": "data/images/romand_23_nucadamia.svg"
+                "image_path": "data/images/romand_23_nucadamia.png"
             }
         ]
     },
@@ -166,7 +166,7 @@
         },
         "color_family": "Hồng",
         "price_tier": "Luxury",
-        "image_path": "data/images/dior_001_pink.svg",
+        "image_path": "data/images/dior_001_pink.png",
         "original_image_url": "https://www.dior.com/dw/image/v2/BBDV_PRD/on/demandware.static/-/Sites-master_deparment_store/default/dw7694901f/assets/Y0996214/Y0996214_C099600001_E01.jpg?sw=800&sh=800&sm=fit",
         "dupes": []
     },
@@ -193,7 +193,7 @@
         },
         "color_family": "San Hô",
         "price_tier": "Luxury",
-        "image_path": "data/images/dior_004_coral.svg",
+        "image_path": "data/images/dior_004_coral.png",
         "original_image_url": "https://www.dior.com/dw/image/v2/BBDV_PRD/on/demandware.static/-/Sites-master_deparment_store/default/dw11fb4d57/assets/Y0996214/Y0996214_C099600004_E01.jpg?sw=800&sh=800&sm=fit",
         "dupes": []
     },
@@ -220,7 +220,7 @@
         },
         "color_family": "Đỏ",
         "price_tier": "Luxury",
-        "image_path": "data/images/dior_888_strong_matte.svg",
+        "image_path": "data/images/dior_888_strong_matte.png",
         "original_image_url": "https://www.dior.com/dw/image/v2/BBDV_PRD/on/demandware.static/-/Sites-master_deparment_store/default/dw8374d89e/assets/Y0996452/Y0996452_C099600888_E01.jpg?sw=800&sh=800&sm=fit",
         "dupes": [
             {
@@ -231,7 +231,7 @@
                 "hex_code": "#D82B27",
                 "similarity": 84.4,
                 "delta_e": 4.45,
-                "image_path": "data/images/blackrouge_a03_soft_red.svg"
+                "image_path": "data/images/blackrouge_a03_soft_red.png"
             }
         ]
     },
@@ -258,7 +258,7 @@
         },
         "color_family": "Đỏ Đất / Gạch",
         "price_tier": "Luxury",
-        "image_path": "data/images/ysl_1966_rouge_libre.svg",
+        "image_path": "data/images/ysl_1966_rouge_libre.png",
         "original_image_url": "https://www.yslbeautyus.com/dw/image/v2/AABF_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw20739c3e/makeup/lips/lipstick/rouge-pur-couture-the-slim-velvet-radical/3614273449312_rougepurcouturetheslimvelvetradical_1966.jpg?sw=800&sh=800&sm=fit",
         "dupes": [
             {
@@ -269,7 +269,7 @@
                 "hex_code": "#B1262B",
                 "similarity": 82.3,
                 "delta_e": 5.06,
-                "image_path": "data/images/blackrouge_a21_prickly_rose.svg"
+                "image_path": "data/images/blackrouge_a21_prickly_rose.png"
             }
         ]
     },
@@ -296,7 +296,7 @@
         },
         "color_family": "Đỏ Đất / Gạch",
         "price_tier": "Luxury",
-        "image_path": "data/images/ysl_21_rouge_paradoxe.svg",
+        "image_path": "data/images/ysl_21_rouge_paradoxe.png",
         "original_image_url": "https://www.yslbeautyus.com/dw/image/v2/AABF_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dwfa63914a/makeup/lips/lipstick/rouge-pur-couture-the-slim-velvet-radical/3614273449336_rougepurcouturetheslimvelvetradical_21.jpg?sw=800&sh=800&sm=fit",
         "dupes": [
             {
@@ -307,7 +307,7 @@
                 "hex_code": "#B1262B",
                 "similarity": 77.1,
                 "delta_e": 6.53,
-                "image_path": "data/images/blackrouge_a21_prickly_rose.svg"
+                "image_path": "data/images/blackrouge_a21_prickly_rose.png"
             }
         ]
     },
@@ -334,7 +334,7 @@
         },
         "color_family": "Đỏ",
         "price_tier": "Luxury",
-        "image_path": "data/images/ysl_01_le_rouge.svg",
+        "image_path": "data/images/ysl_01_le_rouge.png",
         "original_image_url": "https://www.yslbeautyus.com/dw/image/v2/AABF_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dwc62b489a/makeup/lips/lipstick/rouge-pur-couture/3614273902343_rouge_pur_couture_01_le_rouge.jpg?sw=800&sh=800&sm=fit",
         "dupes": [
             {
@@ -345,7 +345,7 @@
                 "hex_code": "#D82B27",
                 "similarity": 61.3,
                 "delta_e": 11.07,
-                "image_path": "data/images/blackrouge_a03_soft_red.svg"
+                "image_path": "data/images/blackrouge_a03_soft_red.png"
             }
         ]
     },
@@ -372,7 +372,7 @@
         },
         "color_family": "Cam",
         "price_tier": "Luxury",
-        "image_path": "data/images/ysl_13_le_orange.svg",
+        "image_path": "data/images/ysl_13_le_orange.png",
         "original_image_url": "https://www.yslbeautyus.com/dw/image/v2/AABF_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw9a7a6b8f/makeup/lips/lipstick/rouge-pur-couture/3614273902428_rouge_pur_couture_13_le_orange.jpg?sw=800&sh=800&sm=fit",
         "dupes": []
     },
@@ -399,7 +399,7 @@
         },
         "color_family": "San Hô",
         "price_tier": "Luxury",
-        "image_path": "data/images/ysl_11_ambiguous_beige.svg",
+        "image_path": "data/images/ysl_11_ambiguous_beige.png",
         "original_image_url": "https://www.yslbeautyus.com/dw/image/v2/AABF_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw4a613f1c/makeup/lips/lipstick/rouge-pur-couture-the-slim-velvet-radical/3614273449299_rougepurcouturetheslimvelvetradical_11.jpg?sw=800&sh=800&sm=fit",
         "dupes": []
     },
@@ -426,7 +426,7 @@
         },
         "color_family": "Hồng",
         "price_tier": "Luxury",
-        "image_path": "data/images/ysl_02_sweet_pink.svg",
+        "image_path": "data/images/ysl_02_sweet_pink.png",
         "original_image_url": "https://www.yslbeautyus.com/dw/image/v2/AABF_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw36be8e4e/makeup/lips/lipstick/candy-glaze-lip-gloss-stick/3614273583320_candyglazelipglossstick_02.jpg?sw=800&sh=800&sm=fit",
         "dupes": []
     },
@@ -453,7 +453,7 @@
         },
         "color_family": "Đỏ Đất / Gạch",
         "price_tier": "Luxury",
-        "image_path": "data/images/tomford_16_scarlet_rouge.svg",
+        "image_path": "data/images/tomford_16_scarlet_rouge.png",
         "original_image_url": "https://www.tomford.com/dw/image/v2/BDTJ_PRD/on/demandware.static/-/Sites-tomford-master-catalog/default/dw9e4a5d89/images/T0T1-16-0001_A.jpg?sw=800&sh=800&sm=fit",
         "dupes": [
             {
@@ -464,7 +464,7 @@
                 "hex_code": "#CE2847",
                 "similarity": 82.8,
                 "delta_e": 4.91,
-                "image_path": "data/images/blackrouge_a15_sunny_rose.svg"
+                "image_path": "data/images/blackrouge_a15_sunny_rose.png"
             },
             {
                 "id": 44,
@@ -474,7 +474,7 @@
                 "hex_code": "#B1262B",
                 "similarity": 65.9,
                 "delta_e": 9.74,
-                "image_path": "data/images/blackrouge_a21_prickly_rose.svg"
+                "image_path": "data/images/blackrouge_a21_prickly_rose.png"
             }
         ]
     },
@@ -501,7 +501,7 @@
         },
         "color_family": "Đỏ Đất / Gạch",
         "price_tier": "Luxury",
-        "image_path": "data/images/tomford_07_ruby_rush.svg",
+        "image_path": "data/images/tomford_07_ruby_rush.png",
         "original_image_url": "https://www.tomford.com/dw/image/v2/BDTJ_PRD/on/demandware.static/-/Sites-tomford-master-catalog/default/dw3d8a5c9a/images/T0T1-07-0001_A.jpg?sw=800&sh=800&sm=fit",
         "dupes": [
             {
@@ -512,7 +512,7 @@
                 "hex_code": "#CE2847",
                 "similarity": 68.2,
                 "delta_e": 9.08,
-                "image_path": "data/images/blackrouge_a15_sunny_rose.svg"
+                "image_path": "data/images/blackrouge_a15_sunny_rose.png"
             },
             {
                 "id": 44,
@@ -522,7 +522,7 @@
                 "hex_code": "#B1262B",
                 "similarity": 63.4,
                 "delta_e": 10.45,
-                "image_path": "data/images/blackrouge_a21_prickly_rose.svg"
+                "image_path": "data/images/blackrouge_a21_prickly_rose.png"
             }
         ]
     },
@@ -549,7 +549,7 @@
         },
         "color_family": "Đỏ Đất / Gạch",
         "price_tier": "Luxury",
-        "image_path": "data/images/tomford_100_equus.svg",
+        "image_path": "data/images/tomford_100_equus.png",
         "original_image_url": "https://www.tomford.com/dw/image/v2/BDTJ_PRD/on/demandware.static/-/Sites-tomford-master-catalog/default/dw1b6a7d23/images/T0T1-100-0001_A.jpg?sw=800&sh=800&sm=fit",
         "dupes": [
             {
@@ -560,7 +560,7 @@
                 "hex_code": "#B04D38",
                 "similarity": 63.6,
                 "delta_e": 10.41,
-                "image_path": "data/images/romand_13_eat_dotori.svg"
+                "image_path": "data/images/romand_13_eat_dotori.png"
             }
         ]
     },
@@ -587,7 +587,7 @@
         },
         "color_family": "Hồng",
         "price_tier": "Luxury",
-        "image_path": "data/images/tomford_09_true_coral.svg",
+        "image_path": "data/images/tomford_09_true_coral.png",
         "original_image_url": "https://www.tomford.com/dw/image/v2/BDTJ_PRD/on/demandware.static/-/Sites-tomford-master-catalog/default/dw9f7a4e5f/images/T0T1-09-0001_A.jpg?sw=800&sh=800&sm=fit",
         "dupes": []
     },
@@ -614,7 +614,7 @@
         },
         "color_family": "Đỏ Đất / Gạch",
         "price_tier": "Luxury",
-        "image_path": "data/images/tomford_03_casablanca.svg",
+        "image_path": "data/images/tomford_03_casablanca.png",
         "original_image_url": "https://www.tomford.com/dw/image/v2/BDTJ_PRD/on/demandware.static/-/Sites-tomford-master-catalog/default/dwa39b1a2c/images/T0T0-03-0001_A.jpg?sw=800&sh=800&sm=fit",
         "dupes": [
             {
@@ -625,7 +625,7 @@
                 "hex_code": "#8A2A22",
                 "similarity": 84.7,
                 "delta_e": 4.38,
-                "image_path": "data/images/romand_06_deepsoul.svg"
+                "image_path": "data/images/romand_06_deepsoul.png"
             },
             {
                 "id": 37,
@@ -635,7 +635,7 @@
                 "hex_code": "#802319",
                 "similarity": 80.1,
                 "delta_e": 5.68,
-                "image_path": "data/images/blackrouge_a12_dashed_brown.svg"
+                "image_path": "data/images/blackrouge_a12_dashed_brown.png"
             },
             {
                 "id": 54,
@@ -645,7 +645,7 @@
                 "hex_code": "#9B372F",
                 "similarity": 77.3,
                 "delta_e": 6.48,
-                "image_path": "data/images/romand_04_vintage_ocean.svg"
+                "image_path": "data/images/romand_04_vintage_ocean.png"
             }
         ]
     },
@@ -672,7 +672,7 @@
         },
         "color_family": "Đỏ",
         "price_tier": "Luxury",
-        "image_path": "data/images/tomford_15_wild_ginger.svg",
+        "image_path": "data/images/tomford_15_wild_ginger.png",
         "original_image_url": "https://www.tomford.com/dw/image/v2/BDTJ_PRD/on/demandware.static/-/Sites-tomford-master-catalog/default/dw6c7b9a5e/images/T0T0-15-0001_A.jpg?sw=800&sh=800&sm=fit",
         "dupes": []
     },
@@ -699,7 +699,7 @@
         },
         "color_family": "Đỏ",
         "price_tier": "Luxury",
-        "image_path": "data/images/gucci_25_goldie_red.svg",
+        "image_path": "data/images/gucci_25_goldie_red.png",
         "original_image_url": "https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1569429906/591427_PV200_9025_001_100_0000_Light-Rouge-Lvres-Mat-Lipstick-25-Goldie-Red.jpg",
         "dupes": [
             {
@@ -710,7 +710,7 @@
                 "hex_code": "#CE2847",
                 "similarity": 65.1,
                 "delta_e": 9.98,
-                "image_path": "data/images/blackrouge_a15_sunny_rose.svg"
+                "image_path": "data/images/blackrouge_a15_sunny_rose.png"
             }
         ]
     },
@@ -737,7 +737,7 @@
         },
         "color_family": "Đỏ Đất / Gạch",
         "price_tier": "Luxury",
-        "image_path": "data/images/gucci_505_janet_rust.svg",
+        "image_path": "data/images/gucci_505_janet_rust.png",
         "original_image_url": "https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1569429910/591427_PV200_9505_001_100_0000_Light-Rouge-Lvres-Mat-Lipstick-505-Janet-Rust.jpg",
         "dupes": [
             {
@@ -748,7 +748,7 @@
                 "hex_code": "#9B372F",
                 "similarity": 77.3,
                 "delta_e": 6.49,
-                "image_path": "data/images/romand_04_vintage_ocean.svg"
+                "image_path": "data/images/romand_04_vintage_ocean.png"
             },
             {
                 "id": 51,
@@ -758,7 +758,7 @@
                 "hex_code": "#A53F33",
                 "similarity": 72.7,
                 "delta_e": 7.8,
-                "image_path": "data/images/romand_05_witty.svg"
+                "image_path": "data/images/romand_05_witty.png"
             },
             {
                 "id": 38,
@@ -768,7 +768,7 @@
                 "hex_code": "#A83F31",
                 "similarity": 72.4,
                 "delta_e": 7.88,
-                "image_path": "data/images/blackrouge_a06_sweet_chili.svg"
+                "image_path": "data/images/blackrouge_a06_sweet_chili.png"
             }
         ]
     },
@@ -795,7 +795,7 @@
         },
         "color_family": "Hồng",
         "price_tier": "Luxury",
-        "image_path": "data/images/gucci_208_they_met_in_argentina.svg",
+        "image_path": "data/images/gucci_208_they_met_in_argentina.png",
         "original_image_url": "https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1569429903/591427_PV200_9208_001_100_0000_Light-Rouge-Lvres-Mat-Lipstick-208-They-Met-in-Argentina.jpg",
         "dupes": [
             {
@@ -806,7 +806,7 @@
                 "hex_code": "#D78B88",
                 "similarity": 86.0,
                 "delta_e": 4.01,
-                "image_path": "data/images/romand_18_mulled_peach.svg"
+                "image_path": "data/images/romand_18_mulled_peach.png"
             }
         ]
     },
@@ -833,7 +833,7 @@
         },
         "color_family": "Đỏ Đất / Gạch",
         "price_tier": "Luxury",
-        "image_path": "data/images/gucci_509_janie_scarlet.svg",
+        "image_path": "data/images/gucci_509_janie_scarlet.png",
         "original_image_url": "https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1569429912/591427_PV200_9509_001_100_0000_Light-Rouge-Lvres-Mat-Lipstick-509-Janie-Scarlet.jpg",
         "dupes": [
             {
@@ -844,7 +844,7 @@
                 "hex_code": "#7A1B29",
                 "similarity": 67.6,
                 "delta_e": 9.24,
-                "image_path": "data/images/blackrouge_a32_black_rose.svg"
+                "image_path": "data/images/blackrouge_a32_black_rose.png"
             }
         ]
     },
@@ -871,7 +871,7 @@
         },
         "color_family": "Đỏ",
         "price_tier": "Luxury",
-        "image_path": "data/images/gucci_500_odalie_red.svg",
+        "image_path": "data/images/gucci_500_odalie_red.png",
         "original_image_url": "https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1559132104/563820_PV200_9500_001_100_0000_Light-Rouge-Lvres-Satin-Lipstick-500-Odalie-Red.jpg",
         "dupes": []
     },
@@ -898,7 +898,7 @@
         },
         "color_family": "Đỏ",
         "price_tier": "Luxury",
-        "image_path": "data/images/gucci_203_mildred_rosewood.svg",
+        "image_path": "data/images/gucci_203_mildred_rosewood.png",
         "original_image_url": "https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1559132101/563823_PV200_9203_001_100_0000_Light-Rouge-Lvres-Voile-Lipstick-203-Mildred-Rosewood.jpg",
         "dupes": [
             {
@@ -909,7 +909,7 @@
                 "hex_code": "#B37D73",
                 "similarity": 72.5,
                 "delta_e": 7.85,
-                "image_path": "data/images/romand_23_nucadamia.svg"
+                "image_path": "data/images/romand_23_nucadamia.png"
             },
             {
                 "id": 45,
@@ -919,7 +919,7 @@
                 "hex_code": "#A76571",
                 "similarity": 69.7,
                 "delta_e": 8.65,
-                "image_path": "data/images/romand_06_figfig.svg"
+                "image_path": "data/images/romand_06_figfig.png"
             },
             {
                 "id": 46,
@@ -929,7 +929,7 @@
                 "hex_code": "#B55D61",
                 "similarity": 63.1,
                 "delta_e": 10.55,
-                "image_path": "data/images/romand_07_jujube.svg"
+                "image_path": "data/images/romand_07_jujube.png"
             }
         ]
     },
@@ -956,7 +956,7 @@
         },
         "color_family": "Đỏ Đất / Gạch",
         "price_tier": "Premium",
-        "image_path": "data/images/mac_ruby_woo.svg",
+        "image_path": "data/images/mac_ruby_woo.png",
         "original_image_url": "https://www.maccosmetics.com/media/export/html/products/800x800/m_mac_M30005_800x800_0.jpg",
         "dupes": [
             {
@@ -967,7 +967,7 @@
                 "hex_code": "#CE2847",
                 "similarity": 63.6,
                 "delta_e": 10.39,
-                "image_path": "data/images/blackrouge_a15_sunny_rose.svg"
+                "image_path": "data/images/blackrouge_a15_sunny_rose.png"
             },
             {
                 "id": 44,
@@ -977,7 +977,7 @@
                 "hex_code": "#B1262B",
                 "similarity": 62.6,
                 "delta_e": 10.69,
-                "image_path": "data/images/blackrouge_a21_prickly_rose.svg"
+                "image_path": "data/images/blackrouge_a21_prickly_rose.png"
             }
         ]
     },
@@ -1004,7 +1004,7 @@
         },
         "color_family": "Đỏ Đất / Gạch",
         "price_tier": "Premium",
-        "image_path": "data/images/mac_russian_red.svg",
+        "image_path": "data/images/mac_russian_red.png",
         "original_image_url": "https://www.maccosmetics.com/media/export/html/products/800x800/m_mac_M30006_800x800_0.jpg",
         "dupes": [
             {
@@ -1015,7 +1015,7 @@
                 "hex_code": "#B1262B",
                 "similarity": 72.5,
                 "delta_e": 7.87,
-                "image_path": "data/images/blackrouge_a21_prickly_rose.svg"
+                "image_path": "data/images/blackrouge_a21_prickly_rose.png"
             },
             {
                 "id": 42,
@@ -1025,7 +1025,7 @@
                 "hex_code": "#CE2847",
                 "similarity": 68.1,
                 "delta_e": 9.12,
-                "image_path": "data/images/blackrouge_a15_sunny_rose.svg"
+                "image_path": "data/images/blackrouge_a15_sunny_rose.png"
             }
         ]
     },
@@ -1052,7 +1052,7 @@
         },
         "color_family": "Đỏ",
         "price_tier": "Premium",
-        "image_path": "data/images/mac_devoted_to_chili.svg",
+        "image_path": "data/images/mac_devoted_to_chili.png",
         "original_image_url": "https://www.maccosmetics.com/media/export/html/products/800x800/m_mac_MT1Y16_800x800_0.jpg",
         "dupes": [
             {
@@ -1063,7 +1063,7 @@
                 "hex_code": "#C54E4B",
                 "similarity": 80.9,
                 "delta_e": 5.45,
-                "image_path": "data/images/romand_02_joyful.svg"
+                "image_path": "data/images/romand_02_joyful.png"
             },
             {
                 "id": 39,
@@ -1073,7 +1073,7 @@
                 "hex_code": "#B84A39",
                 "similarity": 72.0,
                 "delta_e": 7.99,
-                "image_path": "data/images/blackrouge_a26_winter_peach.svg"
+                "image_path": "data/images/blackrouge_a26_winter_peach.png"
             },
             {
                 "id": 38,
@@ -1083,7 +1083,7 @@
                 "hex_code": "#A83F31",
                 "similarity": 71.3,
                 "delta_e": 8.2,
-                "image_path": "data/images/blackrouge_a06_sweet_chili.svg"
+                "image_path": "data/images/blackrouge_a06_sweet_chili.png"
             }
         ]
     },
@@ -1110,7 +1110,7 @@
         },
         "color_family": "Hồng",
         "price_tier": "Premium",
-        "image_path": "data/images/mac_mull_it_over.svg",
+        "image_path": "data/images/mac_mull_it_over.png",
         "original_image_url": "https://www.maccosmetics.com/media/export/html/products/800x800/m_mac_MT1Y09_800x800_0.jpg",
         "dupes": [
             {
@@ -1121,7 +1121,7 @@
                 "hex_code": "#D78B88",
                 "similarity": 64.3,
                 "delta_e": 10.19,
-                "image_path": "data/images/romand_18_mulled_peach.svg"
+                "image_path": "data/images/romand_18_mulled_peach.png"
             },
             {
                 "id": 52,
@@ -1131,7 +1131,7 @@
                 "hex_code": "#B37D73",
                 "similarity": 61.1,
                 "delta_e": 11.1,
-                "image_path": "data/images/romand_23_nucadamia.svg"
+                "image_path": "data/images/romand_23_nucadamia.png"
             }
         ]
     },
@@ -1158,7 +1158,7 @@
         },
         "color_family": "Hồng",
         "price_tier": "Premium",
-        "image_path": "data/images/mac_all_fired_up.svg",
+        "image_path": "data/images/mac_all_fired_up.png",
         "original_image_url": "https://www.maccosmetics.com/media/export/html/products/800x800/m_mac_M30007_800x800_0.jpg",
         "dupes": []
     },
@@ -1185,7 +1185,7 @@
         },
         "color_family": "Đỏ",
         "price_tier": "Premium",
-        "image_path": "data/images/mac_see_sheer.svg",
+        "image_path": "data/images/mac_see_sheer.png",
         "original_image_url": "https://www.maccosmetics.com/media/export/html/products/800x800/m_mac_MT6T08_800x800_0.jpg",
         "dupes": []
     },
@@ -1212,7 +1212,7 @@
         },
         "color_family": "Đỏ",
         "price_tier": "Ultra-Luxury",
-        "image_path": "data/images/hermes_64_rouge_casaque.svg",
+        "image_path": "data/images/hermes_64_rouge_casaque.png",
         "original_image_url": "https://assets.hermes.com/image/upload/T_products_item_800/v1580922332/rouge-hermes-matte-lipstick-64-rouge-casaque.jpg",
         "dupes": [
             {
@@ -1223,7 +1223,7 @@
                 "hex_code": "#D82B27",
                 "similarity": 64.3,
                 "delta_e": 10.19,
-                "image_path": "data/images/blackrouge_a03_soft_red.svg"
+                "image_path": "data/images/blackrouge_a03_soft_red.png"
             }
         ]
     },
@@ -1250,7 +1250,7 @@
         },
         "color_family": "Đỏ Đất / Gạch",
         "price_tier": "Ultra-Luxury",
-        "image_path": "data/images/hermes_85_rouge_h.svg",
+        "image_path": "data/images/hermes_85_rouge_h.png",
         "original_image_url": "https://assets.hermes.com/image/upload/T_products_item_800/v1580922335/rouge-hermes-matte-lipstick-85-rouge-h.jpg",
         "dupes": []
     },
@@ -1277,7 +1277,7 @@
         },
         "color_family": "Đỏ",
         "price_tier": "Ultra-Luxury",
-        "image_path": "data/images/hermes_48_rose_boise.svg",
+        "image_path": "data/images/hermes_48_rose_boise.png",
         "original_image_url": "https://assets.hermes.com/image/upload/T_products_item_800/v1580922329/rouge-hermes-satin-lipstick-48-rose-boise.jpg",
         "dupes": [
             {
@@ -1288,7 +1288,7 @@
                 "hex_code": "#A76571",
                 "similarity": 87.8,
                 "delta_e": 3.49,
-                "image_path": "data/images/romand_06_figfig.svg"
+                "image_path": "data/images/romand_06_figfig.png"
             }
         ]
     },
@@ -1315,7 +1315,7 @@
         },
         "color_family": "Cam",
         "price_tier": "Ultra-Luxury",
-        "image_path": "data/images/hermes_33_orange_boite.svg",
+        "image_path": "data/images/hermes_33_orange_boite.png",
         "original_image_url": "https://assets.hermes.com/image/upload/T_products_item_800/v1580922325/rouge-hermes-satin-lipstick-33-orange-boite.jpg",
         "dupes": []
     },
@@ -1342,7 +1342,7 @@
         },
         "color_family": "Đỏ",
         "price_tier": "Ultra-Luxury",
-        "image_path": "data/images/hermes_21_rose_epice.svg",
+        "image_path": "data/images/hermes_21_rose_epice.png",
         "original_image_url": "https://assets.hermes.com/image/upload/T_products_item_800/v1580922321/rouge-hermes-satin-lipstick-21-rose-epice.jpg",
         "dupes": [
             {
@@ -1353,7 +1353,7 @@
                 "hex_code": "#B37D73",
                 "similarity": 72.7,
                 "delta_e": 7.79,
-                "image_path": "data/images/romand_23_nucadamia.svg"
+                "image_path": "data/images/romand_23_nucadamia.png"
             },
             {
                 "id": 49,
@@ -1363,7 +1363,7 @@
                 "hex_code": "#D78B88",
                 "similarity": 65.7,
                 "delta_e": 9.8,
-                "image_path": "data/images/romand_18_mulled_peach.svg"
+                "image_path": "data/images/romand_18_mulled_peach.png"
             }
         ]
     },
@@ -1390,7 +1390,7 @@
         },
         "color_family": "Đỏ",
         "price_tier": "Ultra-Luxury",
-        "image_path": "data/images/hermes_75_rouge_amazone.svg",
+        "image_path": "data/images/hermes_75_rouge_amazone.png",
         "original_image_url": "https://assets.hermes.com/image/upload/T_products_item_800/v1580922339/rouge-hermes-satin-lipstick-75-rouge-amazone.jpg",
         "dupes": [
             {
@@ -1401,7 +1401,7 @@
                 "hex_code": "#D82B27",
                 "similarity": 84.4,
                 "delta_e": 4.45,
-                "image_path": "data/images/blackrouge_a03_soft_red.svg"
+                "image_path": "data/images/blackrouge_a03_soft_red.png"
             }
         ]
     },
@@ -1428,7 +1428,7 @@
         },
         "color_family": "Đỏ Đất / Gạch",
         "price_tier": "Affordable",
-        "image_path": "data/images/blackrouge_a12_dashed_brown.svg",
+        "image_path": "data/images/blackrouge_a12_dashed_brown.png",
         "original_image_url": "https://blackrouge.vn/cdn/shop/products/a12_dashed_brown.jpg",
         "dupes": []
     },
@@ -1455,7 +1455,7 @@
         },
         "color_family": "Đỏ Đất / Gạch",
         "price_tier": "Affordable",
-        "image_path": "data/images/blackrouge_a06_sweet_chili.svg",
+        "image_path": "data/images/blackrouge_a06_sweet_chili.png",
         "original_image_url": "https://blackrouge.vn/cdn/shop/products/a06_sweet_chili.jpg",
         "dupes": []
     },
@@ -1482,7 +1482,7 @@
         },
         "color_family": "Đỏ",
         "price_tier": "Affordable",
-        "image_path": "data/images/blackrouge_a26_winter_peach.svg",
+        "image_path": "data/images/blackrouge_a26_winter_peach.png",
         "original_image_url": "https://blackrouge.vn/cdn/shop/products/a26_winter_peach.jpg",
         "dupes": []
     },
@@ -1509,7 +1509,7 @@
         },
         "color_family": "Đỏ",
         "price_tier": "Affordable",
-        "image_path": "data/images/blackrouge_a31_dry_rose.svg",
+        "image_path": "data/images/blackrouge_a31_dry_rose.png",
         "original_image_url": "https://blackrouge.vn/cdn/shop/products/a31_dry_rose.jpg",
         "dupes": []
     },
@@ -1536,7 +1536,7 @@
         },
         "color_family": "Đỏ",
         "price_tier": "Affordable",
-        "image_path": "data/images/blackrouge_a03_soft_red.svg",
+        "image_path": "data/images/blackrouge_a03_soft_red.png",
         "original_image_url": "https://blackrouge.vn/cdn/shop/products/a03_soft_red.jpg",
         "dupes": []
     },
@@ -1563,7 +1563,7 @@
         },
         "color_family": "Đỏ",
         "price_tier": "Affordable",
-        "image_path": "data/images/blackrouge_a15_sunny_rose.svg",
+        "image_path": "data/images/blackrouge_a15_sunny_rose.png",
         "original_image_url": "https://blackrouge.vn/cdn/shop/products/a15_sunny_rose.jpg",
         "dupes": []
     },
@@ -1590,7 +1590,7 @@
         },
         "color_family": "Đỏ Đất / Gạch",
         "price_tier": "Affordable",
-        "image_path": "data/images/blackrouge_a32_black_rose.svg",
+        "image_path": "data/images/blackrouge_a32_black_rose.png",
         "original_image_url": "https://blackrouge.vn/cdn/shop/products/a32_black_rose.jpg",
         "dupes": []
     },
@@ -1617,7 +1617,7 @@
         },
         "color_family": "Đỏ Đất / Gạch",
         "price_tier": "Affordable",
-        "image_path": "data/images/blackrouge_a21_prickly_rose.svg",
+        "image_path": "data/images/blackrouge_a21_prickly_rose.png",
         "original_image_url": "https://blackrouge.vn/cdn/shop/products/a21_prickly_rose.jpg",
         "dupes": []
     },
@@ -1644,7 +1644,7 @@
         },
         "color_family": "Đỏ",
         "price_tier": "Affordable",
-        "image_path": "data/images/romand_06_figfig.svg",
+        "image_path": "data/images/romand_06_figfig.png",
         "original_image_url": "https://romand.vn/cdn/shop/products/06_figfig.jpg",
         "dupes": []
     },
@@ -1671,7 +1671,7 @@
         },
         "color_family": "Đỏ",
         "price_tier": "Affordable",
-        "image_path": "data/images/romand_07_jujube.svg",
+        "image_path": "data/images/romand_07_jujube.png",
         "original_image_url": "https://romand.vn/cdn/shop/products/07_jujube.jpg",
         "dupes": []
     },
@@ -1698,7 +1698,7 @@
         },
         "color_family": "Đỏ",
         "price_tier": "Affordable",
-        "image_path": "data/images/romand_13_eat_dotori.svg",
+        "image_path": "data/images/romand_13_eat_dotori.png",
         "original_image_url": "https://romand.vn/cdn/shop/products/13_eat_dotori.jpg",
         "dupes": []
     },
@@ -1725,7 +1725,7 @@
         },
         "color_family": "Đỏ",
         "price_tier": "Affordable",
-        "image_path": "data/images/romand_25_bare_grape.svg",
+        "image_path": "data/images/romand_25_bare_grape.png",
         "original_image_url": "https://romand.vn/cdn/shop/products/25_bare_grape.jpg",
         "dupes": []
     },
@@ -1752,7 +1752,7 @@
         },
         "color_family": "Hồng",
         "price_tier": "Affordable",
-        "image_path": "data/images/romand_18_mulled_peach.svg",
+        "image_path": "data/images/romand_18_mulled_peach.png",
         "original_image_url": "https://romand.vn/cdn/shop/products/18_mulled_peach.jpg",
         "dupes": []
     },
@@ -1779,7 +1779,7 @@
         },
         "color_family": "Đỏ",
         "price_tier": "Affordable",
-        "image_path": "data/images/romand_02_joyful.svg",
+        "image_path": "data/images/romand_02_joyful.png",
         "original_image_url": "https://romand.vn/cdn/shop/products/02_joyful.jpg",
         "dupes": []
     },
@@ -1806,7 +1806,7 @@
         },
         "color_family": "Đỏ Đất / Gạch",
         "price_tier": "Affordable",
-        "image_path": "data/images/romand_05_witty.svg",
+        "image_path": "data/images/romand_05_witty.png",
         "original_image_url": "https://romand.vn/cdn/shop/products/05_witty.jpg",
         "dupes": []
     },
@@ -1833,7 +1833,7 @@
         },
         "color_family": "Đỏ",
         "price_tier": "Affordable",
-        "image_path": "data/images/romand_23_nucadamia.svg",
+        "image_path": "data/images/romand_23_nucadamia.png",
         "original_image_url": "https://romand.vn/cdn/shop/products/23_nucadamia.jpg",
         "dupes": []
     },
@@ -1860,7 +1860,7 @@
         },
         "color_family": "Đỏ Đất / Gạch",
         "price_tier": "Affordable",
-        "image_path": "data/images/romand_06_deepsoul.svg",
+        "image_path": "data/images/romand_06_deepsoul.png",
         "original_image_url": "https://romand.vn/cdn/shop/products/06_deepsoul.jpg",
         "dupes": []
     },
@@ -1887,7 +1887,7 @@
         },
         "color_family": "Đỏ Đất / Gạch",
         "price_tier": "Affordable",
-        "image_path": "data/images/romand_04_vintage_ocean.svg",
+        "image_path": "data/images/romand_04_vintage_ocean.png",
         "original_image_url": "https://romand.vn/cdn/shop/products/04_vintage_ocean.jpg",
         "dupes": []
     }

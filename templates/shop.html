@@ -2,43 +2,53 @@
 {% block title %}Cửa Hàng Son Môi | Lipstick Luxe{% endblock %}
 {% block content %}
 
-    <div class="control-grid" style="grid-template-columns: 1fr; margin-bottom: 25px;">
-        <div class="glass-panel" style="padding: 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px; margin-bottom: 0;">
-            <h1 style="font-family: 'Playfair Display', serif; font-size: 28px; color: #fff; margin: 0;">Bộ Sưu Tập Cửa Hàng</h1>
-            
-            <div style="display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
-                <!-- Sort dropdown -->
-                <div class="input-group" style="flex-direction: row; align-items: center; gap: 10px;">
-                    <label for="shop-sort" style="white-space: nowrap; margin-bottom: 0;">Sắp xếp theo:</label>
-                    <div class="select-wrapper" style="width: 180px;">
-                        <select id="shop-sort">
-                            <option value="">Mặc định (ID)</option>
-                            <option value="asc">Giá: Thấp đến Cao</option>
-                            <option value="desc">Giá: Cao đến Thấp</option>
-                        </select>
-                    </div>
+    <!-- PAGE HEADER -->
+    <div style="margin-bottom: var(--sp-xxl);">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Trang Chủ</a>
+            <span class="separator" aria-hidden="true">›</span>
+            <span class="current" aria-current="page">Cửa Hàng</span>
+        </nav>
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: var(--sp-base);">
+            <div>
+                <span class="featured-tagline" style="text-align:left;">Khám Phá</span>
+                <h1 style="font-family: var(--font-display); font-size: var(--type-display-lg); font-weight: 500; color: var(--ink-deep); line-height: 1.17; letter-spacing: 0; font-feature-settings: 'ss01','ss02';">Bộ Sưu Tập</h1>
+            </div>
+
+            <!-- Sort dropdown -->
+            <div class="input-group" style="flex-direction: row; align-items: center; gap: var(--sp-md); min-width: 200px;">
+                <label for="shop-sort" style="white-space: nowrap; margin-bottom: 0; font-size: var(--type-body-sm); font-weight: 700; color: var(--ink);">Sắp xếp:</label>
+                <div class="select-wrapper" style="width: 180px;">
+                    <select id="shop-sort" aria-label="Sắp xếp sản phẩm">
+                        <option value="">Mặc định</option>
+                        <option value="asc">Giá: Thấp → Cao</option>
+                        <option value="desc">Giá: Cao → Thấp</option>
+                    </select>
                 </div>
             </div>
         </div>
     </div>
 
+    <!-- SHOP LAYOUT: SIDEBAR + GRID -->
     <div class="shop-layout-grid">
-        
+
         <!-- SIDEBAR FILTERS -->
-        <aside class="glass-panel" style="padding: 24px; position: sticky; top: 20px;">
-            <h3 style="font-size: 16px; color: var(--accent-gold); margin-bottom: 20px; letter-spacing: 1px; text-transform: uppercase; border-bottom: 1px solid rgba(255,255,255,0.06); padding-bottom: 10px;">Bộ Lọc Tìm Kiếm</h3>
-            
-            <!-- Text Search -->
-            <div class="input-group" style="margin-bottom: 20px;">
-                <label for="search-input">Tìm kiếm từ khóa</label>
+        <aside class="glass-panel" style="padding: var(--sp-xxl); position: sticky; top: 80px;" aria-label="Bộ lọc sản phẩm">
+            <h2 style="font-size: var(--type-body-sm); font-weight: 700; color: var(--ink-deep); margin-bottom: var(--sp-xxl); letter-spacing: -0.14px; text-transform: uppercase; border-bottom: 1px solid var(--hairline-soft); padding-bottom: var(--sp-md);">Bộ Lọc</h2>
+
+            <!-- Keyword search -->
+            <div class="input-group" style="margin-bottom: var(--sp-xl);">
+                <label for="search-input">Tìm kiếm</label>
                 <div class="search-input-wrapper">
-                    <span class="search-icon">&#128269;</span>
-                    <input type="text" id="search-input" placeholder="Tên son, hãng, mã...">
+                    <span class="search-icon" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                    </span>
+                    <input type="search" id="search-input" placeholder="Tên son, hãng, mã màu..." autocomplete="off">
                 </div>
             </div>
 
-            <!-- Brand Filter -->
-            <div class="input-group" style="margin-bottom: 20px;">
+            <!-- Brand filter -->
+            <div class="input-group" style="margin-bottom: var(--sp-xl);">
                 <label for="brand-filter">Thương Hiệu</label>
                 <div class="select-wrapper">
                     <select id="brand-filter">
@@ -48,15 +58,15 @@
                         <option value="Tom Ford">Tom Ford</option>
                         <option value="Gucci">Gucci</option>
                         <option value="MAC">MAC</option>
-                        <option value="Hermes">Hermes</option>
+                        <option value="Hermes">Hermès</option>
                         <option value="Black Rouge">Black Rouge</option>
                         <option value="Romand">Romand</option>
                     </select>
                 </div>
             </div>
 
-            <!-- Color Family Filter -->
-            <div class="input-group" style="margin-bottom: 20px;">
+            <!-- Color family filter -->
+            <div class="input-group" style="margin-bottom: var(--sp-xl);">
                 <label for="color-filter">Nhóm Màu Sắc</label>
                 <div class="select-wrapper">
                     <select id="color-filter">
@@ -72,30 +82,37 @@
                 </div>
             </div>
 
-            <!-- Price Tier Filter -->
-            <div class="input-group" style="margin-bottom: 20px;">
+            <!-- Price tier filter -->
+            <div class="input-group" style="margin-bottom: var(--sp-xxl);">
                 <label for="price-filter">Phân Khúc Giá</label>
                 <div class="select-wrapper">
                     <select id="price-filter">
                         <option value="">Tất cả mức giá</option>
-                        <option value="Affordable">Bình dân (Romand...)</option>
-                        <option value="Premium">Trung cấp (MAC...)</option>
-                        <option value="Luxury">Cao cấp (Dior, YSL...)</option>
-                        <option value="Ultra-Luxury">Siêu cao cấp (Hermes...)</option>
+                        <option value="Affordable">Bình dân (Romand…)</option>
+                        <option value="Premium">Trung cấp (MAC…)</option>
+                        <option value="Luxury">Cao cấp (Dior, YSL…)</option>
+                        <option value="Ultra-Luxury">Siêu cao cấp (Hermès…)</option>
                     </select>
                 </div>
             </div>
-            
-            <button class="btn-export" id="btn-reset-filters" style="width: 100%; justify-content: center; margin-top: 10px;">Xóa Tất Cả Bộ Lọc</button>
+
+            <button class="btn-ghost" id="btn-reset-filters" style="width: 100%; justify-content: center;">
+                Xóa Tất Cả Bộ Lọc
+            </button>
         </aside>
 
-        <!-- PRODUCT GRID -->
-        <section class="glass-panel" style="padding: 24px; min-height: 500px;">
-            <div class="product-grid" id="shop-product-grid">
+        <!-- PRODUCT GRID AREA -->
+        <section aria-label="Danh sách sản phẩm">
+            <!-- Result count -->
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: var(--sp-xl); min-height: 32px;">
+                <p id="shop-result-count" style="font-size: var(--type-body-sm); color: var(--slate); letter-spacing: -0.14px;" aria-live="polite"></p>
+            </div>
+
+            <div class="product-grid" id="shop-product-grid" role="list" style="min-height: 400px;">
                 <!-- Loaded dynamically by JS -->
             </div>
         </section>
-        
+
     </div>
 
 {% endblock %}

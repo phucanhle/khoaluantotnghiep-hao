@@ -1,50 +1,159 @@
 {% extends 'base.html' %}
-{% block title %}Trang Chủ | Lipstick Luxe E-commerce{% endblock %}
+{% block title %}Trang Chủ | Lipstick Luxe — Mỹ Phẩm Cao Cấp AR & AI{% endblock %}
 {% block content %}
 
-    <!-- HERO BANNER -->
-    <section class="premium-banner" id="hero-banner">
+    <!-- HERO MARKETING BAND -->
+    <section class="premium-banner" id="hero-banner" aria-label="Hero section">
         <div class="banner-glow"></div>
+
+        <!-- Left: Copy -->
         <div class="banner-content">
-            <span class="banner-badge">Sản Phẩm Cao Cấp Tiêu Biểu</span>
-            <h2 class="banner-title">Dior Rouge Dior 999</h2>
-            <p class="banner-description">Dòng son mang tính biểu tượng của sự kiêu sa kiểu Pháp. Chất son Velvet nhung mềm mại, lâu trôi trong 16 giờ, tôn vinh sắc đỏ huyền thoại giúp bạn tỏa sáng ở mọi góc nhìn.</p>
+            <span class="banner-badge" role="text">✦ Bộ sưu tập mới · Thử son ảo AR</span>
+
+            <h1 class="banner-title">Dior Rouge<br>Dior <em style="color: var(--primary); font-style: italic; font-weight: 300;">999</em></h1>
+
+            <p class="banner-description">
+                Dòng son biểu tượng của sự kiêu sa kiểu Pháp. Chất son Velvet nhung mềm mại, lâu trôi trong 16 giờ, tôn vinh sắc đỏ huyền thoại.
+            </p>
+
+            <ul class="banner-features" role="list">
+                <li>
+                    <span class="feature-star" aria-hidden="true">✦</span>
+                    Velvet Finish mịn mượt như nhung
+                </li>
+                <li>
+                    <span class="feature-star" aria-hidden="true">✦</span>
+                    Lưu giữ bền màu suốt 16 giờ liên tục
+                </li>
+                <li>
+                    <span class="feature-star" aria-hidden="true">✦</span>
+                    Sắc đỏ Rouge Dior 999 biểu tượng thời trang
+                </li>
+            </ul>
+
             <div class="banner-actions">
-                <a href="/product/1" class="btn-primary" style="text-decoration: none;">
-                    CHI TIẾT & THỬ AR CẬP NHẬT
+                <a href="/product/1" class="btn-primary" id="hero-cta-primary">
+                    Chi Tiết & Thử AR
                 </a>
-                <a href="/shop" class="btn-export" style="text-decoration: none; margin-left: 12px; border-color: var(--accent-gold);">
-                    MUA NGAY
+                <a href="/shop" class="btn-secondary" id="hero-cta-secondary">
+                    Xem Cửa Hàng
                 </a>
             </div>
         </div>
-        <div class="banner-image-container" id="hero-lipstick-casing" style="width: 200px; height: 300px; margin: 0 auto;">
-            <!-- Rendered by JS dynamic SVG lipstick -->
+
+        <!-- Right: Hero image (lipstick SVG from JS) -->
+        <div class="banner-image-wrapper" aria-hidden="true">
+            <div class="image-halo"></div>
+            <div class="banner-image-container" id="hero-lipstick-casing">
+                <!-- Rendered by JS dynamic SVG lipstick -->
+            </div>
         </div>
     </section>
 
-    <!-- HIGHLIGHT FEATURED PRODUCTS GRID -->
-    <section class="glass-panel">
-        <h2 class="section-title">
-            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent-gold)" stroke-width="2" style="vertical-align: middle;"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-            Sản Phẩm Son Môi Nổi Bật (Featured Selection)
-        </h2>
-        <div class="product-grid" id="featured-products-grid">
-            <!-- Dynamic cards loaded via JS -->
+    <!-- WHY-BUY ROW (4-up reassurance) -->
+    <section class="feature-icon-row" aria-label="Cam kết dịch vụ">
+
+        <div class="why-buy-tile" id="why-buy-shipping">
+            <div class="icon-box" style="width:40px;height:40px;border-radius:var(--rounded-xl);background:var(--primary-soft);display:flex;align-items:center;justify-content:center;margin-bottom:var(--sp-md);">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 17H3a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v3"/><rect width="13" height="8" x="9" y="13" rx="1"/><path d="M11 21c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2z"/><path d="M19 21c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2z"/></svg>
+            </div>
+            <h3>Vận Chuyển Miễn Phí</h3>
+            <p>Giao hàng trong 2 ngày cho đơn từ 500.000₫. Nhanh chóng, an toàn trên toàn quốc.</p>
+        </div>
+
+        <div class="why-buy-tile" id="why-buy-returns">
+            <div class="icon-box" style="width:40px;height:40px;border-radius:var(--rounded-xl);background:var(--primary-soft);display:flex;align-items:center;justify-content:center;margin-bottom:var(--sp-md);">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+            </div>
+            <h3>Đổi Trả 30 Ngày</h3>
+            <p>Không hài lòng? Đổi trả miễn phí trong 30 ngày kể từ ngày nhận hàng.</p>
+        </div>
+
+        <div class="why-buy-tile" id="why-buy-warranty">
+            <div class="icon-box" style="width:40px;height:40px;border-radius:var(--rounded-xl);background:var(--primary-soft);display:flex;align-items:center;justify-content:center;margin-bottom:var(--sp-md);">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3>Hàng Chính Hãng</h3>
+            <p>100% sản phẩm nhập khẩu chính hãng từ các thương hiệu danh tiếng thế giới.</p>
+        </div>
+
+        <div class="why-buy-tile" id="why-buy-payment">
+            <div class="icon-box" style="width:40px;height:40px;border-radius:var(--rounded-xl);background:var(--primary-soft);display:flex;align-items:center;justify-content:center;margin-bottom:var(--sp-md);">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></svg>
+            </div>
+            <h3>Thanh Toán Linh Hoạt</h3>
+            <p>COD, chuyển khoản ngân hàng — thanh toán an toàn và tiện lợi.</p>
+        </div>
+
+    </section>
+
+    <!-- FEATURED PRODUCTS SECTION -->
+    <section class="premium-featured-section" aria-label="Sản phẩm nổi bật">
+        <div class="featured-section-header">
+            <span class="featured-tagline">Bộ Sưu Tập Tiêu Biểu</span>
+            <h2 class="featured-title">Sản Phẩm Son Môi Nổi Bật</h2>
+            <p class="featured-subtitle">
+                Tinh tuyển các sắc son kiêu sa từ các nhà mốt danh tiếng. Bật camera để trải nghiệm thử son ảo AR độc đáo.
+            </p>
+        </div>
+
+        <!-- Brand filter pills -->
+        <div class="featured-tabs-container">
+            <div class="featured-tabs" id="featured-brand-tabs" role="tablist" aria-label="Lọc theo thương hiệu">
+                <button class="featured-tab-btn active" data-brand="all" role="tab" aria-selected="true">Tất cả</button>
+                <button class="featured-tab-btn" data-brand="Dior" role="tab" aria-selected="false">Dior</button>
+                <button class="featured-tab-btn" data-brand="YSL" role="tab" aria-selected="false">YSL</button>
+                <button class="featured-tab-btn" data-brand="Tom Ford" role="tab" aria-selected="false">Tom Ford</button>
+                <button class="featured-tab-btn" data-brand="Gucci" role="tab" aria-selected="false">Gucci</button>
+                <button class="featured-tab-btn" data-brand="MAC" role="tab" aria-selected="false">MAC</button>
+                <button class="featured-tab-btn" data-brand="Hermes" role="tab" aria-selected="false">Hermès</button>
+                <button class="featured-tab-btn" data-brand="Romand" role="tab" aria-selected="false">Romand</button>
+                <button class="featured-tab-btn" data-brand="Black Rouge" role="tab" aria-selected="false">Black Rouge</button>
+            </div>
+        </div>
+
+        <div class="featured-grid-wrapper">
+            <div class="product-grid" id="featured-products-grid" role="list">
+                <!-- Dynamic cards loaded via JS -->
+            </div>
         </div>
     </section>
 
-    <!-- AI RECOMMENDATION PREVIEW GRID -->
-    <section class="glass-panel" id="home-recommendations-panel" style="display: none;">
+    <!-- DARK PROMO STRIP — AR Feature CTA -->
+    <section class="card-promo-strip" id="ar-promo-strip" aria-label="Tính năng thử son AR">
+        <div style="max-width: 600px; position: relative; z-index: 1;">
+            <span class="badge badge-promo-yellow" style="margin-bottom: var(--sp-xl); display: inline-block;">✨ Công nghệ độc quyền</span>
+            <h2 style="font-family: var(--font-display); font-size: clamp(28px, 4vw, 48px); font-weight: 500; color: var(--canvas); line-height: 1.17; margin-bottom: var(--sp-xl); font-feature-settings: 'ss01', 'ss02'; letter-spacing: 0;">
+                Thử Son Ảo AR<br>Ngay Trên Trình Duyệt
+            </h2>
+            <p style="font-size: var(--type-subtitle-md); color: rgba(255,255,255,0.75); line-height: 1.44; margin-bottom: var(--sp-xxl); max-width: 44ch;">
+                Công nghệ WebRTC phân tích khuôn mặt realtime — xem màu son trên môi bạn trước khi mua.
+            </p>
+            <div style="display: flex; gap: var(--sp-md); flex-wrap: wrap;">
+                <a href="/shop" class="btn-primary" style="background: var(--canvas); color: var(--ink-deep);">
+                    Khám Phá Sản Phẩm
+                </a>
+                <a href="/product/1" class="btn-secondary" style="border-color: rgba(255,255,255,0.5); color: var(--canvas);">
+                    Thử AR Ngay
+                </a>
+            </div>
+        </div>
+        <!-- Decorative circles -->
+        <div aria-hidden="true" style="position:absolute;right:-60px;top:-60px;width:300px;height:300px;border-radius:50%;background:rgba(255,255,255,0.04);pointer-events:none;"></div>
+        <div aria-hidden="true" style="position:absolute;right:60px;bottom:-80px;width:200px;height:200px;border-radius:50%;background:rgba(255,255,255,0.03);pointer-events:none;"></div>
+    </section>
+
+    <!-- AI RECOMMENDATION PREVIEW -->
+    <section class="glass-panel" id="home-recommendations-panel" style="display: none;" aria-label="Gợi ý AI">
         <h2 class="section-title">
-            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent-gold)" stroke-width="2" style="vertical-align: middle;"><path d="M12 2v20"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
-            Gợi Ý Màu Son Dành Riêng Cho Bạn (AI Personalized Recommendations)
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2" style="flex-shrink:0;" aria-hidden="true"><path d="M12 2v20"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            Gợi Ý Màu Son Dành Riêng Cho Bạn
         </h2>
-        <p style="color: var(--text-muted); font-size: 14px; margin-bottom: 25px;">
-            Thuật toán gợi ý đã phân tích hồ sơ sắc độ da của bạn để lọc ra các thỏi son có tỷ lệ tương thích cao nhất.
+        <p style="color: var(--charcoal); font-size: var(--type-body-sm); margin-bottom: var(--sp-xxl); letter-spacing: -0.14px; max-width: 60ch;">
+            Thuật toán AI đã phân tích hồ sơ sắc độ da của bạn để lọc ra các thỏi son có tỷ lệ tương thích cao nhất.
         </p>
-        <div class="product-grid" id="home-recommendations-grid">
-            <!-- Dynamic recommendations cards loaded via JS -->
+        <div class="product-grid" id="home-recommendations-grid" role="list">
+            <!-- Dynamic recommendations loaded via JS -->
         </div>
     </section>
 

@@ -324,11 +324,28 @@ def init_db():
                     return ""
 
             for lp in lipsticks:
-                base64_str = lp.get("image_base64", "")
-                if not base64_str and lp.get("image_path"):
-                    base64_str = get_base64_from_path(lp["image_path"])
+                # Do not seed massive base64 image strings to keep database tiny and speed up API responses
+                base64_str = ""
                 
+                # Use local optimized WebP image path instead of remote URL or base64
+                img_url = ""
+                if lp.get("image_path"):
+                    img_filename = os.path.basename(lp["image_path"])
+                    if img_filename.endswith(".png"):
+                        img_filename = img_filename[:-4] + ".webp"
+                    img_url = f"/static/images/{img_filename}"
+                else:
+                    img_url = lp.get("original_image_url", lp.get("image_url", ""))
+                
+                # Map dupe image paths to optimized local WebP paths so the frontend can display them
                 dupes = lp.get("dupes", [])
+                for dp in dupes:
+                    if dp.get("image_path"):
+                        dp_filename = os.path.basename(dp["image_path"])
+                        if dp_filename.endswith(".png"):
+                            dp_filename = dp_filename[:-4] + ".webp"
+                        dp["original_image_url"] = f"/static/images/{dp_filename}"
+                
                 dupes_str = json.dumps(dupes, ensure_ascii=False)
                 
                 params = (
@@ -343,7 +360,7 @@ def init_db():
                     lp["color_family"],
                     lp["price_tier"],
                     base64_str,
-                    lp.get("original_image_url", lp.get("image_url", "")),
+                    img_url,
                     dupes_str
                 )
                 cursor.execute(insert_query, params)

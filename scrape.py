@@ -636,15 +636,23 @@ def main():
         
         safe_brand = brand.replace(" ", "").lower()
         safe_shade = shade.replace(" ", "_").replace("/", "_").lower()
-        local_img_name = f"{safe_brand}_{safe_shade}.jpg"
-        local_img_path = f"data/images/{local_img_name}"
         
-        # Tai hinh anh tu web hang
-        success = download_image(item["image_url"], local_img_path)
-        if not success:
-            local_img_name = f"{safe_brand}_{safe_shade}.svg"
+        # Check if pre-generated real image exists
+        if os.path.exists(f"data/images/{safe_brand}_{safe_shade}.png"):
+            local_img_name = f"{safe_brand}_{safe_shade}.png"
             local_img_path = f"data/images/{local_img_name}"
-            generate_swatch_svg(hex_code, local_img_path)
+        elif os.path.exists(f"data/images/{safe_brand}_{safe_shade}.jpg"):
+            local_img_name = f"{safe_brand}_{safe_shade}.jpg"
+            local_img_path = f"data/images/{local_img_name}"
+        else:
+            local_img_name = f"{safe_brand}_{safe_shade}.jpg"
+            local_img_path = f"data/images/{local_img_name}"
+            # Tai hinh anh tu web hang
+            success = download_image(item["image_url"], local_img_path)
+            if not success:
+                local_img_name = f"{safe_brand}_{safe_shade}.svg"
+                local_img_path = f"data/images/{local_img_name}"
+                generate_swatch_svg(hex_code, local_img_path)
             
         r, g, b = hex_to_rgb(hex_code)
         h, s, l = rgb_to_hsl(r, g, b)

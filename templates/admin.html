@@ -2,21 +2,24 @@
 {% block title %}Trang Quản Trị Admin | Lipstick Luxe{% endblock %}
 {% block content %}
 
-    <h1 style="font-family: 'Playfair Display', serif; font-size: 30px; color: #fff; margin-bottom: 25px;">Bảng Quản Trị Hệ Thống</h1>
+    <div style="margin-bottom: 25px;">
+        <span style="font-size: 10px; color: var(--gold); text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700;">Quản Trị Viên</span>
+        <h1 style="font-family: 'Playfair Display', Georgia, serif; font-size: 30px; font-weight: 600; color: var(--ink); margin: 4px 0 0 0; letter-spacing: -0.01em;">Bảng Quản Trị Hệ Thống</h1>
+    </div>
     
     <!-- TABS TO SWITCH VIEWS -->
-    <div style="display: flex; gap: 15px; margin-bottom: 25px;">
-        <button id="admin-tab-orders" class="btn-export active" style="padding: 12px 24px;">Quản Lý Đơn Hàng Khách Hàng</button>
-        <button id="admin-tab-products" class="btn-export" style="padding: 12px 24px; border-color: var(--accent-gold);">Điều Chỉnh Sản Phẩm</button>
+    <div style="display: flex; gap: 10px; margin-bottom: 25px;">
+        <button id="admin-tab-orders" class="btn-export active" style="padding: 12px 24px; border-color: var(--gold); color: var(--gold); background: var(--gold-light);">Quản Lý Đơn Hàng</button>
+        <button id="admin-tab-products" class="btn-export" style="padding: 12px 24px;">Điều Chỉnh Sản Phẩm</button>
     </div>
     
     <!-- SECTION 1: MANAGE CUSTOMER ORDERS -->
-    <div class="glass-panel" id="admin-orders-section" style="padding: 24px; display: block;">
-        <h3 style="font-size: 16px; color: var(--accent-gold); margin-bottom: 20px; text-transform: uppercase; letter-spacing: 1px;">Đơn Hàng Gần Đây</h3>
+    <div class="glass-panel" id="admin-orders-section" style="padding: 28px; display: block;">
+        <h3 style="font-size: 10px; color: var(--gold); margin-bottom: 20px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; border-bottom: 1px solid var(--border); padding-bottom: 12px;">✦ Đơn Hàng Gần Đây</h3>
         
         <table style="width: 100%; border-collapse: collapse; text-align: left;" id="admin-orders-table">
             <thead>
-                <tr style="border-bottom: 1px solid rgba(255,255,255,0.08); color: var(--text-muted); font-size: 13px;">
+                <tr style="border-bottom: 1px solid var(--border);">
                     <th style="padding: 12px 8px;">Mã ĐH</th>
                     <th style="padding: 12px 8px;">Tài khoản</th>
                     <th style="padding: 12px 8px;">Khách hàng</th>
@@ -30,20 +33,23 @@
             <tbody id="admin-orders-body">
                 <!-- Loaded dynamically by JS -->
                 <tr>
-                    <td colspan="8" style="text-align: center; padding: 30px; color: var(--text-muted); font-style: italic;">Chưa có đơn đặt hàng nào trong cơ sở dữ liệu.</td>
+                    <td colspan="8" style="text-align: center; padding: 40px 20px; color: var(--ink-faint); font-style: italic;">
+                        <div style="font-size: 30px; margin-bottom: 10px; opacity: 0.3;">📋</div>
+                        Chưa có đơn đặt hàng nào trong cơ sở dữ liệu.
+                    </td>
                 </tr>
             </tbody>
         </table>
     </div>
     
     <!-- SECTION 2: EDIT PRODUCT PRICE TIERS -->
-    <div class="glass-panel" id="admin-products-section" style="padding: 24px; display: none;">
-        <h3 style="font-size: 16px; color: var(--accent-gold); margin-bottom: 20px; text-transform: uppercase; letter-spacing: 1px;">Danh Sách Son Môi Trong CSDL</h3>
-        <p style="color: var(--text-muted); font-size: 13px; margin-bottom: 20px;">Tài khoản Admin có thể thay đổi phân khúc giá sản phẩm trực tiếp ghi nhận vào cơ sở dữ liệu MySQL/SQLite.</p>
+    <div class="glass-panel" id="admin-products-section" style="padding: 28px; display: none;">
+        <h3 style="font-size: 10px; color: var(--gold); margin-bottom: 20px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; border-bottom: 1px solid var(--border); padding-bottom: 12px;">✦ Danh Sách Son Môi Trong CSDL</h3>
+        <p style="color: var(--ink-muted); font-size: 13px; margin-bottom: 20px; line-height: 1.7;">Tài khoản Admin có thể thay đổi phân khúc giá sản phẩm trực tiếp ghi nhận vào cơ sở dữ liệu MySQL/SQLite.</p>
         
         <table style="width: 100%; border-collapse: collapse; text-align: left;" id="admin-products-table">
             <thead>
-                <tr style="border-bottom: 1px solid rgba(255,255,255,0.08); color: var(--text-muted); font-size: 13px;">
+                <tr style="border-bottom: 1px solid var(--border);">
                     <th style="padding: 12px 8px;">Mã son</th>
                     <th style="padding: 12px 8px;">Thương hiệu</th>
                     <th style="padding: 12px 8px;">Tên sản phẩm</th>
